@@ -1,0 +1,108 @@
+
+[
+    {
+      "id": 1,
+      "name": "Natural Resources Management",
+      "description": "CEGIS has highly dedicated multi-disciplinary qualified professionals who provide well...",
+      "image": "https://via.placeholder.com/300x200?text=Natural+Resources+Management",
+      "readMoreLink": "/natural-resources-management"
+    },
+    {
+      "id": 2,
+      "name": "River Management",
+      "description": "CEGIS is a unique organization that examines river, delta, coastal, and estuary dynamics...",
+      "image": "https://via.placeholder.com/300x200?text=River+Management",
+      "readMoreLink": "/river-management"
+    },
+    {
+      "id": 3,
+      "name": "Geoinformatics and Spatial Technology",
+      "description": "Geoinformatics and spatial technology support policymakers to ensure sustainable projects...",
+      "image": "https://via.placeholder.com/300x200?text=Geoinformatics+and+Spatial+Technology",
+      "readMoreLink": "/geoinformatics-and-spatial-technology"
+    },
+    {
+      "id": 4,
+      "name": "Disaster and Risk Management",
+      "description": "CEGIS is contributing to achieving sustainable development goals (SDGs) through Disaster...",
+      "image": "https://via.placeholder.com/300x200?text=Disaster+and+Risk+Management",
+      "readMoreLink": "/disaster-and-risk-management"
+    },
+    {
+      "id": 5,
+      "name": "Climate Change",
+      "description": "CEGIS is a pioneer in delivering versatile climate services using the latest tools and...",
+      "image": "https://via.placeholder.com/300x200?text=Climate+Change",
+      "readMoreLink": "/climate-change"
+    },
+    {
+      "id": 6,
+      "name": "Water Resource Planning",
+      "description": "Planning and management of water resources for sustainable use and development...",
+      "image": "https://via.placeholder.com/300x200?text=Water+Resource+Planning",
+      "readMoreLink": "/water-resource-planning"
+    },
+    {
+      "id": 7,
+      "name": "Environmental Impact Assessment",
+      "description": "Assessing the potential environmental impacts of projects and policies...",
+      "image": "https://via.placeholder.com/300x200?text=Environmental+Impact+Assessment",
+      "readMoreLink": "/environmental-impact-assessment"
+    },
+    {
+      "id": 8,
+      "name": "Sustainable Development",
+      "description": "Promoting sustainable development practices and policies for long-term benefits...",
+      "image": "https://via.placeholder.com/300x200?text=Sustainable+Development",
+      "readMoreLink": "/sustainable-development"
+    },
+    {
+      "id": 9,
+      "name": "Ecosystem Conservation",
+      "description": "Conserving and managing ecosystems for biodiversity and ecological balance...",
+      "image": "https://via.placeholder.com/300x200?text=Ecosystem+Conservation",
+      "readMoreLink": "/ecosystem-conservation"
+    },
+    {
+      "id": 10,
+      "name": "Urban Planning",
+      "description": "Planning and designing urban areas for efficient and sustainable living...",
+      "image": "https://via.placeholder.com/300x200?text=Urban+Planning",
+      "readMoreLink": "/urban-planning"
+    },
+    {
+      "id": 11,
+      "name": "Agricultural Development",
+      "description": "Enhancing agricultural productivity and sustainability for food security...",
+      "image": "https://via.placeholder.com/300x200?text=Agricultural+Development",
+      "readMoreLink": "/agricultural-development"
+    },
+    {
+      "id": 12,
+      "name": "Waste Management",
+      "description": "Managing waste effectively to minimize environmental impact and promote recycling...",
+      "image": "https://via.placeholder.com/300x200?text=Waste+Management",
+      "readMoreLink": "/waste-management"
+    },
+    {
+      "id": 13,
+      "name": "Biodiversity Conservation",
+      "description": "Protecting and conserving biodiversity for ecological health and resilience...",
+      "image": "https://via.placeholder.com/300x200?text=Biodiversity+Conservation",
+      "readMoreLink": "/biodiversity-conservation"
+    },
+    {
+      "id": 14,
+      "name": "Energy Efficiency",
+      "description": "Improving energy efficiency to reduce consumption and promote renewable energy...",
+      "image": "https://via.placeholder.com/300x200?text=Energy+Efficiency",
+      "readMoreLink": "/energy-efficiency"
+    },
+    {
+      "id": 15,
+      "name": "Community Engagement",
+      "description": "Engaging communities in environmental and developmental initiatives for collective action...",
+      "image": "https://via.placeholder.com/300x200?text=Community+Engagement",
+      "readMoreLink": "/community-engagement"
+    }
+  ]
