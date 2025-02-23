@@ -1,8 +1,11 @@
 import React from 'react'
+import HeroSlider from '../slider/heroSlider/HeroSlider'
 
 const Banner = () => {
   return (
-    <div>Banner</div>
+      <>
+        <HeroSlider/>
+      </>
   )
 }
 

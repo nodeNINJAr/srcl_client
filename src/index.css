@@ -1,11 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
 @import "tailwindcss";
-
-
 
 
 /* ** font family */
 @theme {
   --font-roboto: "Roboto", sans-serif; 
-  --font-roboto: "Poppins", sans-serif; 
+  --font-Poppins: "Poppins", sans-serif; 
+  --font-Varela: "Varela Round", sans-serif; 
+  --font-Albert: "Albert Sans", sans-serif; 
 }
+
+html {
+  scroll-behavior: smooth;
+}
+/* Additional custom styles */
+.who-we-are-section {
+    @apply p-8;
+  }
+  
+  .left-column {
+    @apply text-justify;
+  }
+  
+  .right-column {
+    @apply text-justify;
+  }
+  
+  .message-item {
+    @apply flex items-center mb-4;
+  }
+  .ant-card-body {
+    padding: 0px!important;
+  }
+  .ant-menu-horizontal .ant-menu-submenu {
+    padding-inline: 6px!important; /* If you're using Ant Design */
+  }

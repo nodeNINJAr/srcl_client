@@ -1,108 +1,159 @@
-
 [
     {
-      "id": 1,
-      "name": "Natural Resources Management",
-      "description": "CEGIS has highly dedicated multi-disciplinary qualified professionals who provide well...",
-      "image": "https://via.placeholder.com/300x200?text=Natural+Resources+Management",
-      "readMoreLink": "/natural-resources-management"
+      "_id": 1,
+      "title": "4IR Training",
+      "short_desc": "Training for the Fourth Industrial Revolution (4IR) and skill development.",
+      "image": "https://via.placeholder.com/150",
+      "details": {
+        "description": "Comprehensive training programs designed to equip professionals with the skills required for Industry 4.0, including automation, AI, and smart technologies.",
+        "programs": [
+          "ToT Development Program for Community Nursing Program with Different Nursing Institute",
+          "International ToT Development Program",
+          "Private Caregiving Program",
+          "International Skills Development Program"
+        ],
+        "target_audience": ["Nurses", "Healthcare Professionals", "IT Engineers", "Industry Workers"]
+      }
     },
     {
-      "id": 2,
-      "name": "River Management",
-      "description": "CEGIS is a unique organization that examines river, delta, coastal, and estuary dynamics...",
-      "image": "https://via.placeholder.com/300x200?text=River+Management",
-      "readMoreLink": "/river-management"
+      "_id": 2,
+      "title": "Environmental and Social Consultancy",
+      "short_desc": "Comprehensive environmental and social impact assessments.",
+      "image": "https://via.placeholder.com/150",
+      "details": {
+        "description": "Providing consultancy services to assess environmental and social impacts for various development projects.",
+        "services": [
+          "Environmental Impact Assessment (EIA), IEE, Baseline Survey",
+          "Feasibility Study",
+          "Environmental and Social Impact Assessment (ESIA)",
+          "Environmental Management Plan (EMP)",
+          "Social Assessment including IPSA, LA, RP, Socio-Economic Survey",
+          "Environmental Auditing and Due Diligence Assessment",
+          "Environmental Mitigative and Monitoring Services",
+          "Impact Evaluation Studies, Noise and Air Modeling",
+          "Stakeholder Identification and FGD"
+        ],
+        "industries_served": ["Construction", "Energy", "Transportation", "Manufacturing"]
+      }
     },
     {
-      "id": 3,
-      "name": "Geoinformatics and Spatial Technology",
-      "description": "Geoinformatics and spatial technology support policymakers to ensure sustainable projects...",
-      "image": "https://via.placeholder.com/300x200?text=Geoinformatics+and+Spatial+Technology",
-      "readMoreLink": "/geoinformatics-and-spatial-technology"
+      "_id": 3,
+      "title": "Rural Roads and Highways Consultancy",
+      "short_desc": "Consultancy for environmental, social, and economic aspects of roads and highways.",
+      "image": "https://via.placeholder.com/150",
+      "details": {
+        "description": "Helping infrastructure projects meet environmental and social standards while ensuring sustainable development.",
+        "services": [
+          "Environmental Parameter Assessment",
+          "Baseline Survey, Economic and Social Studies",
+          "Resettlement Action Plan (RAP)",
+          "Social Assessment including IPSA, LA, RP, Socio-Economic Survey",
+          "Environmental Auditing and Due Diligence",
+          "Ecological Assessment",
+          "Noise Modelling"
+        ],
+        "target_audience": ["Government Agencies", "Highway Authorities", "Infrastructure Developers"]
+      }
     },
     {
-      "id": 4,
-      "name": "Disaster and Risk Management",
-      "description": "CEGIS is contributing to achieving sustainable development goals (SDGs) through Disaster...",
-      "image": "https://via.placeholder.com/300x200?text=Disaster+and+Risk+Management",
-      "readMoreLink": "/disaster-and-risk-management"
+      "_id": 4,
+      "title": "Development Consultancy",
+      "short_desc": "Assessment and planning for sustainable development projects.",
+      "image": "https://via.placeholder.com/150",
+      "details": {
+        "description": "Offering expert advice and assessments for sustainable development and economic growth projects.",
+        "services": [
+          "Natural Resource and Environmental Assessment (EIA)",
+          "Environmental Impact Assessment (EIA)",
+          "Initial Environmental Examination (IEE)",
+          "Baseline Survey, Economic and Social Studies",
+          "Physical Conduct Household Survey",
+          "Social Impact Assessment for EMP and SMP"
+        ],
+        "target_audience": ["NGOs", "Government Agencies", "Private Companies"]
+      }
     },
     {
-      "id": 5,
-      "name": "Climate Change",
-      "description": "CEGIS is a pioneer in delivering versatile climate services using the latest tools and...",
-      "image": "https://via.placeholder.com/300x200?text=Climate+Change",
-      "readMoreLink": "/climate-change"
+      "_id": 5,
+      "title": "Oil and Gas Industry",
+      "short_desc": "Consulting services for oil and gas sector projects.",
+      "image": "https://via.placeholder.com/150",
+      "details": {
+        "description": "Providing a range of services for oil and gas exploration, extraction, and processing projects.",
+        "services": [
+          "Civil Construction",
+          "Environmental Impact Assessment (EIA)",
+          "Pipeline Installation",
+          "Gas Connection Installation and Repair",
+          "Geotechnical Survey",
+          "Process Plant Installation",
+          "Equipment Installation and Import",
+          "Environmental Monitoring"
+        ],
+        "industries_served": ["Oil & Gas", "Energy", "Mining"]
+      }
     },
     {
-      "id": 6,
-      "name": "Water Resource Planning",
-      "description": "Planning and management of water resources for sustainable use and development...",
-      "image": "https://via.placeholder.com/300x200?text=Water+Resource+Planning",
-      "readMoreLink": "/water-resource-planning"
+      "_id": 6,
+      "title": "Water Resource Management & Agriculture Consultancy",
+      "short_desc": "Water management, hydrology, and agricultural consultancy.",
+      "image": "https://via.placeholder.com/150",
+      "details": {
+        "description": "Specialized consultancy services in water resource management, agriculture, and sustainable development.",
+        "services": [
+          "Water Resource Management",
+          "Irrigation, Drainage and Flood Control",
+          "Drainage Master Plan",
+          "Embankment Protection",
+          "Ground Water Modelling",
+          "Hydrology and Hydrogeology",
+          "Simulation Modelling",
+          "Agriculture, Forestry and Fishery"
+        ],
+        "target_audience": ["Agricultural Firms", "Government Agencies", "Environmental Organizations"]
+      }
     },
     {
-      "id": 7,
-      "name": "Environmental Impact Assessment",
-      "description": "Assessing the potential environmental impacts of projects and policies...",
-      "image": "https://via.placeholder.com/300x200?text=Environmental+Impact+Assessment",
-      "readMoreLink": "/environmental-impact-assessment"
+      "_id": 7,
+      "title": "Dredging",
+      "short_desc": "Dredging, riverbank management, and port services.",
+      "image": "https://via.placeholder.com/150",
+      "details": {
+        "description": "Providing sustainable dredging solutions for maintaining waterways and preventing sedimentation.",
+        "services": [
+          "Dredging & Riverbank Management",
+          "Machineries Supply & Installation",
+          "Monthly Rental Service",
+          "Load, Unload, & Cutter Dredger Supply",
+          "River Channel Cutting",
+          "Sedimentation Cutting",
+          "Riverbank Protection",
+          "Port Service",
+          "BIWTA and BWDB Project Support"
+        ],
+        "target_audience": ["Port Authorities", "Construction Firms", "Government Organizations"]
+      }
     },
     {
-      "id": 8,
-      "name": "Sustainable Development",
-      "description": "Promoting sustainable development practices and policies for long-term benefits...",
-      "image": "https://via.placeholder.com/300x200?text=Sustainable+Development",
-      "readMoreLink": "/sustainable-development"
-    },
-    {
-      "id": 9,
-      "name": "Ecosystem Conservation",
-      "description": "Conserving and managing ecosystems for biodiversity and ecological balance...",
-      "image": "https://via.placeholder.com/300x200?text=Ecosystem+Conservation",
-      "readMoreLink": "/ecosystem-conservation"
-    },
-    {
-      "id": 10,
-      "name": "Urban Planning",
-      "description": "Planning and designing urban areas for efficient and sustainable living...",
-      "image": "https://via.placeholder.com/300x200?text=Urban+Planning",
-      "readMoreLink": "/urban-planning"
-    },
-    {
-      "id": 11,
-      "name": "Agricultural Development",
-      "description": "Enhancing agricultural productivity and sustainability for food security...",
-      "image": "https://via.placeholder.com/300x200?text=Agricultural+Development",
-      "readMoreLink": "/agricultural-development"
-    },
-    {
-      "id": 12,
-      "name": "Waste Management",
-      "description": "Managing waste effectively to minimize environmental impact and promote recycling...",
-      "image": "https://via.placeholder.com/300x200?text=Waste+Management",
-      "readMoreLink": "/waste-management"
-    },
-    {
-      "id": 13,
-      "name": "Biodiversity Conservation",
-      "description": "Protecting and conserving biodiversity for ecological health and resilience...",
-      "image": "https://via.placeholder.com/300x200?text=Biodiversity+Conservation",
-      "readMoreLink": "/biodiversity-conservation"
-    },
-    {
-      "id": 14,
-      "name": "Energy Efficiency",
-      "description": "Improving energy efficiency to reduce consumption and promote renewable energy...",
-      "image": "https://via.placeholder.com/300x200?text=Energy+Efficiency",
-      "readMoreLink": "/energy-efficiency"
-    },
-    {
-      "id": 15,
-      "name": "Community Engagement",
-      "description": "Engaging communities in environmental and developmental initiatives for collective action...",
-      "image": "https://via.placeholder.com/300x200?text=Community+Engagement",
-      "readMoreLink": "/community-engagement"
+      "_id": 8,
+      "title": "Residential and Commercial Building Development",
+      "short_desc": "Construction and development of commercial and residential buildings.",
+      "image": "https://via.placeholder.com/150",
+      "details": {
+        "description": "Complete solutions for residential, commercial, and industrial building development, from design to construction.",
+        "services": [
+          "Housing Society Construction",
+          "Industrial Building Construction",
+          "Steel & RCC Structure Construction",
+          "Commercial cum Residential Building Construction",
+          "Electrical & Plumbing Service",
+          "Monthly Basis Facility Management Services",
+          "Registration, RAJUK Permission",
+          "WASA, DESA, Fire & Titas Gas Permission",
+          "Utility Services"
+        ],
+        "target_audience": ["Real Estate Developers", "Government", "Corporate Businesses"]
+      }
     }
   ]
+

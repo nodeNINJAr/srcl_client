@@ -13,19 +13,19 @@ const ServiceCard = ({ service }) => {
         <figure className="overflow-hidden relative">
           <img
             className="w-full mx-auto rounded-lg hover:scale-110 transition-all ease-in-out overflow-hidden"
-            alt={service?.name}
+            alt={service?.title}
             src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
           />
           {/*  */}
           <h2 className="absolute bottom-0 bg-[#241b1ce6] w-full text-left text-white capitalize text-sm font-normal px-2 py-1 rounded-b-lg">
-            {service?.name}
+            {service?.title}
           </h2>
         </figure>
       }
     >
       {/* content */}
       <p className="text-xs text-center py-2">
-        {service?.description.substring(0, 80)}... <Link to={`services/${service?.id}`} className="text-blue-700 underline">Readmore</Link>
+        {service?.short_desc}... <Link to={`/services/${service?._id}`} className="text-blue-700 underline truncate">View Details</Link>
       </p>
     </Card>
   );
@@ -33,8 +33,10 @@ const ServiceCard = ({ service }) => {
 //
 ServiceCard.propTypes = {
   service: PropTypes.shape({
+    title: PropTypes.string,
     name: PropTypes.string,
     description: PropTypes.string,
+    short_desc: PropTypes.string,
   }),
 };
 

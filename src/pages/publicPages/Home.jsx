@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div>
       <section>
-          <Banner/>
+        <Banner/>
       </section>
       {/*  */}
       <section className="w-11/12 mx-auto pt-20 font-Roboto">

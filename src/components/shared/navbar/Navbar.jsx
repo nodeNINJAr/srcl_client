@@ -4,8 +4,6 @@ import { MenuOutlined } from "@ant-design/icons";
 import { menuItems } from "../../../data/MenuItems";
 
 
-
-
 // 
 export default function MegaMenu() {
   const [open, setOpen] = useState(false);
@@ -17,8 +15,8 @@ export default function MegaMenu() {
   };
 
   return (
-    <div className="bg-white shadow-md p-4 flex justify-between items-center">
-      <div className="text-xl font-bold w-1/12">Brand</div>
+    <div className="bg-white shadow-md p-4 flex justify-between items-center font-roboto">
+      <div className="text-4xl font-bold w-1/12 font-Poppins">Srcl</div>
 
       {/* Desktop Menu (Hover to open submenu) */}
       <div className="hidden lg:flex justify-end flex-1">
@@ -32,9 +30,11 @@ export default function MegaMenu() {
       </div>
 
       {/* Mobile Menu Button */}
-      <Button className="lg:hidden" onClick={() => setOpen(true)}>
+       <div className="lg:hidden" onClick={() => setOpen(true)}>
+       <Button>
         <MenuOutlined />
       </Button>
+       </div>
 
       {/* Mobile Drawer (Click to expand submenu below the item) */}
       <Drawer title="Menu" placement="left" onClose={() => setOpen(false)} open={open}>

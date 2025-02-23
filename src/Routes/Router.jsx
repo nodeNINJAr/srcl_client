@@ -2,6 +2,8 @@ import { Route, Routes } from "react-router";
 import Home from "../pages/publicPages/Home";
 import Layout from "../layouts/Layout";
 import NotFound from "../pages/NotFound";
+import ServiceDetails from "../pages/publicPages/serviceDetails";
+import Services from "../pages/publicPages/Services";
 
 
 
@@ -12,9 +14,10 @@ const Router = () => {
         <Route path="/" element={<Layout/>}>
              <Route index element={<Home />}/>
              {/* <Route path="departments" element={<OurDepartments />}/>
-             <Route path="sectors" element={<Sectors />}/>
+             <Route path="sectors" element={<Sectors />}/> */}
              <Route path="services" element={<Services />}/>
-             <Route path="about-us" element={<AboutUs/>} />
+             <Route path="services/:id" element={<ServiceDetails />}/>
+             {/* <Route path="about-us" element={<AboutUs/>} />
              <Route path="resources" element={<Resources/>} />
              <Route path="training" element={<Training/>} />
              <Route path="our-projects" element={<OurProjects />}/>
