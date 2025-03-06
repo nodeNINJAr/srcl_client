@@ -35,6 +35,3 @@ html {
   .ant-menu-horizontal .ant-menu-submenu {
     padding-inline: 6px!important; /* If you're using Ant Design */
   }
-  /* .circle-shape{
-    @apply shape-outside: circle(); clip-path: circle();
-  } */

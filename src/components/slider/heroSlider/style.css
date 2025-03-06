@@ -54,32 +54,50 @@
   }
   
 .bg-1{
-    background-image: url('../../../assets/image/hero-slider/SlideIMG_1.png');
+    background-image: url('../../../assets/image/hero-slider/slideImg-1.jpeg');
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bg-2{
-    background-image: url('../../../assets/image/hero-slider/SlideIMG_2.png');
+    background-image: url('../../../assets/image/hero-slider/slideImg2c.jpg');
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} 
 .bg-3{
-    background-image: url('../../../assets/image/hero-slider/SlideIMG_4.jpg');
+    background-image: url('../../../assets/image/hero-slider/slideImg-3.jpg');
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bg-4{
-    background-image: url('../../../assets/image/hero-slider/SlideIMG_5.png');
+    background-image: url('../../../assets/image/hero-slider/slideImg-4.jpg');
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bg-5{
-    background-image: url('../../../assets/image/hero-slider/SlideIMG_6.png');
+    background-image: url('../../../assets/image/hero-slider/slideImg-5.jpg');
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bg-6{
+  background-image: url('../../../assets/image/hero-slider/slideImg-6.JPG');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-7{
+  background-image: url('../../../assets/image/hero-slider/slideImg-7.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-8{
+  background-image: url('../../../assets/image/hero-slider/slideImg-8.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -36,6 +36,7 @@ const Router = () => {
              <Route path="news-events-notices" element={<Nen />}/>
              <Route path="career" element={<Career/>}/>
              <Route path="g-card" element={<Gcard />}/>
+             <Route path="conatct" element={<Gcard />}/>
         </Route>
         <Route path="*" element={<NotFound />}/>
       </Routes>

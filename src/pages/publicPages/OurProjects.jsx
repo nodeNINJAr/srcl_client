@@ -6,7 +6,7 @@ const OurProjects = () => {
     <div>OurProjects
         {/* main */}
         <main>
-            <Outlet/>
+           <Outlet/>
         </main>
     </div>
   )

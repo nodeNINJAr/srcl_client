@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Card } from "antd";
 import { Link } from "react-router";
 
-const ServiceCard = ({ service }) => {
+const OurServiceCard = ({ service }) => {
   //
   return (
     //
@@ -31,7 +31,7 @@ const ServiceCard = ({ service }) => {
   );
 };
 //
-ServiceCard.propTypes = {
+OurServiceCard.propTypes = {
   service: PropTypes.shape({
     title: PropTypes.string,
     name: PropTypes.string,
@@ -40,4 +40,4 @@ ServiceCard.propTypes = {
   }),
 };
 
-export default ServiceCard;
+export default OurServiceCard;

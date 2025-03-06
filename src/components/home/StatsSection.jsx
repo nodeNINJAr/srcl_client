@@ -10,22 +10,17 @@ import { Fade } from "react-awesome-reveal";
 const stats = [
   {
     id: 1,
-    value: "25",
+    value: "10",
     label: "Years of Experience",
     icon: <ClockCircleOutlined className="text-green-500 text-4xl" />,
   },
   {
     id: 2,
-    value: "1720",
+    value: "",
     label: "Projects Finished",
     icon: <CheckCircleOutlined className="text-green-500 text-4xl" />,
   },
-  {
-    id: 3,
-    value: "114",
-    label: "Awards Winning",
-    icon: <TrophyOutlined className="text-green-500 text-4xl" />,
-  },
+
   {
     id: 4,
     value: "1350",

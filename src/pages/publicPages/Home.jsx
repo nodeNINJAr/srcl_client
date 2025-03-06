@@ -5,6 +5,7 @@ import OurLandmarkProjects from "../../components/home/OurLandmarkProjects";
 import OurPartnerShip from "../../components/home/OurPartnerShip";
 import Banner from "../../components/home/Banner";
 import StatsSection from "../../components/home/StatsSection";
+import OurOnGoingProjects from "../../components/home/OurOnGoingProjects";
 
 
 
@@ -17,7 +18,7 @@ const Home = () => {
         <Banner/>
       </section>
       {/*  */}
-      <section className=" mx-auto pt-20 font-Roboto bg-gradient-to-r from-[#93ff06] to-[#00869e]">
+      <section className="mx-auto pt-20 font-Roboto">
          <WhoWeAreSection/>
       </section>
        {/* stats */}
@@ -27,6 +28,10 @@ const Home = () => {
       {/* services */}
       <section className="pt-20 w-11/12 mx-auto ">
          <OurServices/>
+      </section>
+       {/* landmark projects */}
+       <section className="w-11/12 mx-auto">
+         <OurOnGoingProjects/>
       </section>
        {/* landmark projects */}
        <section className="w-11/12 mx-auto">

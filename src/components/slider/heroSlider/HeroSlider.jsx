@@ -1,65 +1,77 @@
-
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import './style.css';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import "./style.css";
+import { Fade } from "react-awesome-reveal";
 
-
-// 
+//
 const HeroSlider = () => {
-    const progressCircle = useRef(null);
-    const progressContent = useRef(null);
-    const onAutoplayTimeLeft = (s, time, progress) => {
-      progressCircle.current.style.setProperty('--progress', 1 - progress);
-      progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
-    };
-    return (
-      <>
-        <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-        //   navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
-          onAutoplayTimeLeft={onAutoplayTimeLeft}
-          className="mySwiper"
-        >
-          <SwiperSlide className='bg-1 min-h-[400px] relative'>
-              <h1 className='text-4xl font-semibold text-white absolute left-6 bottom-8'>Conserving the Nature</h1>
-          </SwiperSlide>
-          <SwiperSlide className='bg-2 min-h-[400px] relative'>
-              <h1 className='text-4xl font-semibold text-white absolute left-6 bottom-8'>Conserving the Nature</h1>
-          </SwiperSlide>
-          <SwiperSlide className='bg-3 min-h-[400px] relative'>
-              <h1 className='text-4xl font-semibold text-white absolute left-6 bottom-8'>Conserving the Nature</h1>
-          </SwiperSlide>
-          <SwiperSlide className='bg-4 min-h-[400px] relative'> 
-            <h1 className='text-4xl font-semibold text-white absolute left-6 bottom-8'>Conserving the Nature</h1>
-          </SwiperSlide>
-          <SwiperSlide className='bg-5 min-h-[400px] relative'>
-             <h1 className='text-4xl font-semibold text-white absolute left-6 bottom-8'>Conserving the Nature</h1>
-             </SwiperSlide>
-          <div className="autoplay-progress" slot="container-end">
-            <svg viewBox="0 0 48 48" ref={progressCircle}>
-              <circle cx="24" cy="24" r="20"></circle>
-            </svg>
-            <span ref={progressContent}></span>
-          </div>
-        </Swiper>
-      </>
-    );
-}
+  const slidesData = [
+    { bgClass: "bg-1", title: "Masterplan Police Staff Collage" },
+    { bgClass: "bg-2", title: "Drone survey" },
+    { bgClass: "bg-3", title: "EIA Project- Redmin" },
+    { bgClass: "bg-4", title: "Conserving the Nature Base, Coxs" },
+    { bgClass: "bg-5", title: "Conserving the Nature" },
+    { bgClass: "bg-6", title: "Conserving the Nature" },
+    { bgClass: "bg-7", title: "RHD" },
+    { bgClass: "bg-8", title: "UNDP" },
+  ];
 
-export default HeroSlider
+  //
+  const progressCircle = useRef(null);
+  const progressContent = useRef(null);
+  const onAutoplayTimeLeft = (s, time, progress) => {
+    progressCircle.current.style.setProperty("--progress", 1 - progress);
+    progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+  };
+  return (
+    <>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        //   navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        onAutoplayTimeLeft={onAutoplayTimeLeft}
+        className="mySwiper"
+      >
+        {slidesData.map((slide) => (
+          <SwiperSlide
+            key={slide?.bgClass}
+            className={`${slide?.bgClass}  min-h-[400px] relative`}
+          >
+            <Fade
+              duration={1500}
+              direction="up"
+              className="absolute left-6 bottom-8"
+            >
+              <h1 className="text-4xl font-semibold text-white">
+                {slide?.title}
+              </h1>
+            </Fade>
+          </SwiperSlide>
+        ))}
+        <div className="autoplay-progress" slot="container-end">
+          <svg viewBox="0 0 48 48" ref={progressCircle}>
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span ref={progressContent}></span>
+        </div>
+      </Swiper>
+    </>
+  );
+};
+
+export default HeroSlider;
