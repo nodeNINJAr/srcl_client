@@ -10,18 +10,6 @@ export const menuItems = [
     icon: <HomeOutlined />,
   },
   {
-    key: "our-departments",
-    label: <Link to="/departments">Our Departments</Link>,
-  },
-  {
-    key: "sectors",
-    label: <Link to="/sectors">Sectors</Link>,
-  },
-  {
-    key: "services",
-    label: <Link to="/services">Services</Link>,
-  },
-  {
     key: "about-us",
     label: <span className="flex justify-between items-center gap-1">About Us <MdKeyboardArrowDown className="text-lg hidden lg:flex" /></span>,
     children: [
@@ -35,10 +23,18 @@ export const menuItems = [
     ],
   },
   {
+    key: "our-departments",
+    label: <Link to="/departments">Our Departments</Link>,
+  },
+  {
+    key: "services",
+    label: <Link to="/services">Services</Link>,
+  },
+  {
     key: "projects",
     label: <span className="flex justify-between items-center gap-1">Our Projects <MdKeyboardArrowDown className="text-lg hidden lg:flex" /></span>,
     children: [
-      { key: "featured", label: <Link to="/projects/featured">Featured Projects</Link> },
+      { key: "on-going", label: <Link to="/projects/On-going">On Going Projects</Link> },
       { key: "all-projects", label: <Link to="/projects/all">All Projects</Link> },
       {
         key: "categorized",
@@ -61,19 +57,18 @@ export const menuItems = [
       { key: "survey-equipment", label: <Link to="/resources/survey-equipment">Precision Survey Equipment</Link> },
       { key: "software-tools", label: <Link to="/resources/software-tools">Software and Tools</Link> },
       { key: "publications", label: <Link to="/resources/publications">Publications</Link> },
-      {
-        key: "training",
-        label: "Training",
-        children: [
-          { key: "upcoming-training", label: <Link to="/training/upcoming">Upcoming Training</Link> },
-          { key: "past-training", label: <Link to="/training/past">Past Training</Link> },
-          { key: "training-facility", label: <Link to="/training/facility">Training Facility</Link> },
-          { key: "training-calendar", label: <Link to="/training/calendar">Training Calendar</Link> },
-        ],
-      },
     ],
   },
-  { key: "news-events-notices", label: <Link to="/news-events-notices">News | Events | Notices</Link> },
+  {
+    key:"training",
+    label: <span className="flex justify-between items-center gap-1"> Training <MdKeyboardArrowDown className="text-lg hidden lg:flex" /></span>,
+    children: [
+      { key: "upcoming-training", label: <Link to="/training/upcoming">Upcoming Training</Link> },
+      { key: "past-training", label: <Link to="/training/past">Past Training</Link> },
+      { key: "training-facility", label: <Link to="/training/facility">Training Facility</Link> },
+      { key: "training-calendar", label: <Link to="/training/calendar">Training Calendar</Link> },
+    ],
+  },
   {
     key:"career",
     label: <span className="flex justify-between items-center gap-1"> Career <MdKeyboardArrowDown className="text-lg hidden lg:flex" /></span>,
@@ -85,12 +80,13 @@ export const menuItems = [
   },
   {
     key: "g-card",
-    label:<span className="flex justify-between items-center gap-1">G-CARD  <MdKeyboardArrowDown className="text-lg hidden lg:flex" /></span>,
-    children: [
-      { key: "about-us-gcard", label: <Link to="/g-card/about">About US</Link> },
-      { key: "mission-gcard", label: <Link to="/g-card/mission">Mission</Link> },
-      { key: "vision-gcard", label: <Link to="/g-card/vision">Vision</Link> },
-      { key: "contact-gcard", label: <Link to="/g-card/contact">Contact US</Link> },
-    ],
+    label:'G-CARD',
+    // children: [
+    //   { key: "about-us-gcard", label: <Link to="/g-card/about">About US</Link> },
+    //   { key: "mission-gcard", label: <Link to="/g-card/mission">Mission</Link> },
+    //   { key: "vision-gcard", label: <Link to="/g-card/vision">Vision</Link> },
+    //   { key: "contact-gcard", label: <Link to="/g-card/contact">Contact US</Link> },
+    // ],
   },
+  { key: "news-events-notices", label: <Link to="/news-events-notices">News | Events | Notices</Link> },
 ];

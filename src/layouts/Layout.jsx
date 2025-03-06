@@ -11,7 +11,7 @@ import Navbar from "../components/shared/navbar/Navbar";
 // ** layout for public pages
 const Layout = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto bg-[#F8F9FA] text-[#333333]">
       {/* top navbar */}
         <TopNavbar/>
       {/* navbar */}

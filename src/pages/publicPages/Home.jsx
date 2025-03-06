@@ -4,6 +4,7 @@ import OurServices from "../../components/home/OurServices";
 import OurLandmarkProjects from "../../components/home/OurLandmarkProjects";
 import OurPartnerShip from "../../components/home/OurPartnerShip";
 import Banner from "../../components/home/Banner";
+import StatsSection from "../../components/home/StatsSection";
 
 
 
@@ -16,8 +17,12 @@ const Home = () => {
         <Banner/>
       </section>
       {/*  */}
-      <section className="w-11/12 mx-auto pt-20 font-Roboto">
+      <section className=" mx-auto pt-20 font-Roboto bg-gradient-to-r from-[#93ff06] to-[#00869e]">
          <WhoWeAreSection/>
+      </section>
+       {/* stats */}
+       <section>
+         <StatsSection/>
       </section>
       {/* services */}
       <section className="pt-20 w-11/12 mx-auto ">

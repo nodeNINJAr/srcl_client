@@ -5,17 +5,17 @@ import { FiArrowRight } from "react-icons/fi";
 //
 const TopNavbar = () => {
   return (
-    <div className="flex justify-between gap-6 p-4 flex-wrap bg-green-50 font-roboto">
+    <div className="flex justify-between gap-6 p-4 flex-wrap bg-gradient-to-l from-[#93ff06] to-[#00869e] font-roboto">
       <aside>
-        <h4 className="text-xl font-Varela text-gray-600">Sustainable Research and Consultancy Limited </h4>
+        <h4 className="text-xl font-Albert italic text-gray-300">Sustainability for future</h4>
       </aside>
       <div className="flex justify-end items-center gap-4">
         <nav className="flex items-center space-x-2 text-sm">
-          <a href="#" className="text-gray-400 hover:text-blue-700">
+          <a href="#" className="text-blue-400 hover:text-blue-700">
             Contact Us
           </a>
-          <FiArrowRight className="text-gray-400" />
-          <span className="text-gray-600">Webmail</span>
+          <FiArrowRight className="text-gray-100" />
+          <span className="text-blue-400 hover:text-blue-700">Webmail</span>
         </nav>
            {/* Social Media Section */}
           <div className="flex space-x-4">
