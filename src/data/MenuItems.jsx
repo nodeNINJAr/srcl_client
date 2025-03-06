@@ -19,7 +19,6 @@ export const menuItems = [
       { key: "board", label: <Link to="/about/board">Board of Directors</Link> },
       { key: "professionals", label: <Link to="/about/professionals">Our Professionals</Link> },
       { key: "alliances", label: <Link to="/about/alliances">Association and Alliances</Link> },
-      { key: "contact", label: <Link to="/about/contact">Contact Us</Link> },
     ],
   },
   {
@@ -89,4 +88,5 @@ export const menuItems = [
     // ],
   },
   { key: "news-events-notices", label: <Link to="/news-events-notices">News | Events | Notices</Link> },
+  { key: "contact", label: <Link to="/contact">Contact Us</Link> }
 ];

@@ -35,3 +35,11 @@ html {
   .ant-menu-horizontal .ant-menu-submenu {
     padding-inline: 6px!important; /* If you're using Ant Design */
   }
+
+  /* banner-img */
+  .contact_bg{
+    background-image: url('./assets/image/bg-img/handshake-businessmen.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }

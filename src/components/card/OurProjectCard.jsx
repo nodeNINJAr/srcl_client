@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import PropTypes from "prop-types";
 import { Fade } from "react-awesome-reveal";
 
-const OurProjectCard = ({ project }) => {
+const OurProjectCard = ({ id, title, short_description, image }) => {
   return (
     <Fade duration={1500} direction="up">
       <Card
@@ -13,20 +13,20 @@ const OurProjectCard = ({ project }) => {
           <figure className="overflow-hidden">
             <img
               className="w-full mx-auto rounded-lg hover:scale-110 transition-all ease-in-out overflow-hidden"
-              alt={project?.title}
-              src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+              alt={title}
+              src={image}
             />
           </figure>
         }
       >
         {/* content */}
         <h2 className="text-left text-gray-700 capitalize text-sm font-medium py-1 rounded-b-lg">
-          {project?.title}
+          {title}
         </h2>
         <p className="text-xs text-left py-2">
-          {project?.description.substring(0, 150)}...{" "}
+          {short_description}
           <Link
-            to={`services/${project?.id}`}
+            to={`services/${id}`}
             className="text-blue-700 underline"
           >
             Readmore
@@ -37,11 +37,10 @@ const OurProjectCard = ({ project }) => {
   );
 };
 OurProjectCard.propTypes = {
-  project: PropTypes.shape({
-    title: PropTypes.string,
-    description: PropTypes.string,
-    id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  }),
+  id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  title: PropTypes.string.isRequired,
+  short_description: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
 };
 
 export default OurProjectCard;

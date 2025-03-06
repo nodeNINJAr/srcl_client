@@ -14,6 +14,7 @@ import Gcard from "../pages/publicPages/Gcard";
 import OurDepartments from "../pages/publicPages/OurDepartments";
 import AllProjects from "../pages/publicPages/AllProjects";
 import OnGoing from "../pages/publicPages/OnGoing";
+import ContactUs from "../pages/publicPages/ContactUs";
 
 
 
@@ -36,7 +37,7 @@ const Router = () => {
              <Route path="news-events-notices" element={<Nen />}/>
              <Route path="career" element={<Career/>}/>
              <Route path="g-card" element={<Gcard />}/>
-             <Route path="conatct" element={<Gcard />}/>
+             <Route path="contact" element={<ContactUs />}/>
         </Route>
         <Route path="*" element={<NotFound />}/>
       </Routes>

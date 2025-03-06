@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Drawer, Menu, Button } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import { menuItems } from "../../../data/MenuItems";
-
+import logo from "../../../assets/image/hero-slider/logo/SRC-logo-PNG.png"
 
 // 
 export default function MegaMenu() {
@@ -15,9 +15,8 @@ export default function MegaMenu() {
   };
 
   return (
-    <div className="bg-white shadow-md p-4 flex justify-between items-center font-roboto">
-      <div className="text-4xl font-bold w-1/12 font-Poppins">Srcl</div>
-
+    <div className="bg-white shadow-md px-4 flex justify-between items-center font-roboto">
+      <div className="text-4xl font-bold w-1/12 font-Poppins"><a href={'/'}><img className="w-24 h-24" src={logo} alt="SRCL" /></a></div>
       {/* Desktop Menu (Hover to open submenu) */}
       <div className="hidden lg:flex justify-end flex-1">
         <Menu 
@@ -25,7 +24,6 @@ export default function MegaMenu() {
           items={menuItems} 
           className="border-0 -mr-3 flex-1 justify-end font-medium"
           triggerSubMenuAction="hover" // Enable hover for desktop
-          
         />
       </div>
 

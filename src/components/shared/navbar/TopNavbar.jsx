@@ -5,9 +5,9 @@ import { FiArrowRight } from "react-icons/fi";
 //
 const TopNavbar = () => {
   return (
-    <div className="flex justify-between gap-6 p-4 flex-wrap bg-gradient-to-l from-[#93ff06] to-[#00869e] font-roboto">
+    <div className="flex justify-between gap-6 p-4 flex-wrap bg-[#5f9b10] font-roboto">
       <aside>
-        <h4 className="text-xl font-Albert italic text-gray-300">Sustainability for future</h4>
+        <h4 className="text-xl italic text-gray-100 capitalize font-roboto">Sustainable Research and Consultancy Limited </h4>
       </aside>
       <div className="flex justify-end items-center gap-4">
         <nav className="flex items-center space-x-2 text-sm">

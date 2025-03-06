@@ -16,11 +16,16 @@ const stats = [
   },
   {
     id: 2,
-    value: "",
+    value: "199",
     label: "Projects Finished",
     icon: <CheckCircleOutlined className="text-green-500 text-4xl" />,
   },
-
+  {
+    id: 3,
+    value: "114",
+    label: "Awards Winning",
+    icon: <TrophyOutlined className="text-green-500 text-4xl" />,
+  },
   {
     id: 4,
     value: "1350",
@@ -31,7 +36,7 @@ const stats = [
 
 export default function StatsSection() {
   return (
-    <div className="bg-gray-100 py-10">
+    <div className="py-10">
       <div className="w-11/12 mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat) => (

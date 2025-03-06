@@ -6,6 +6,7 @@ import OurPartnerShip from "../../components/home/OurPartnerShip";
 import Banner from "../../components/home/Banner";
 import StatsSection from "../../components/home/StatsSection";
 import OurOnGoingProjects from "../../components/home/OurOnGoingProjects";
+import ContactUs from "../../components/home/ContactUs";
 
 
 
@@ -18,7 +19,7 @@ const Home = () => {
         <Banner/>
       </section>
       {/*  */}
-      <section className="mx-auto pt-20 font-Roboto">
+      <section className="mx-auto font-Roboto">
          <WhoWeAreSection/>
       </section>
        {/* stats */}
@@ -26,7 +27,7 @@ const Home = () => {
          <StatsSection/>
       </section>
       {/* services */}
-      <section className="pt-20 w-11/12 mx-auto ">
+      <section className="w-11/12 mx-auto ">
          <OurServices/>
       </section>
        {/* landmark projects */}
@@ -40,6 +41,10 @@ const Home = () => {
       {/*  */}
       <section className="py-20 w-11/12 mx-auto">
          <OurPartnerShip/>
+      </section>
+      {/* contact-us section */}
+      <section className="contact_bg mx-auto">
+         <ContactUs/>
       </section>
     </div>
   );
