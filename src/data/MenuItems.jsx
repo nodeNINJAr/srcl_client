@@ -46,19 +46,7 @@ export const menuItems = [
     label: <span className="flex justify-between items-center gap-1">Projects <MdKeyboardArrowDown className="text-lg hidden lg:flex" /></span>,
     children: [
       { key: "on-going", label: <Link to="/projects/On-going">On Going Projects</Link> },
-      { key: "all-projects", label: <Link to="/projects/all">All Projects</Link> },
-      {
-        key: "categorized",
-        label: "Categorized according to-",
-        children: [
-          { key: "sector", label: <Link to="/projects/sector">Sector</Link> },
-          { key: "service", label: <Link to="/projects/services">Services</Link> },
-          { key: "departments", label: <Link to="/projects/departments">Departments</Link> },
-          { key: "ongoing", label: <Link to="/projects/ongoing">Ongoing</Link> },
-          { key: "completed", label: <Link to="/projects/completed">Completed</Link> },
-          { key: "year-wise", label: <Link to="/projects/year-wise">Year wise</Link> },
-        ],
-      },
+      { key: "all-projects", label: <Link to="/projects/all-projects/completed">All Projects</Link> },
     ],
   },
   {
