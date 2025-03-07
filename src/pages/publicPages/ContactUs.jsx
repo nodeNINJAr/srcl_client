@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import ContactInfo from "../../components/contact/ContactInfo";
+import useAxiosSecure from "../../hooks/useAxiosSecure";
+import {notification, Spin } from 'antd';
 
 const ContactUs = () => {
+const axiosSecure = useAxiosSecure();
+const [isLoading, setIsLoading] = useState(false);
+
+  // 
   const {
     register,
     handleSubmit,
@@ -10,11 +16,43 @@ const ContactUs = () => {
     reset,
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log("Form Data:", data);
-    alert("Thank you for reaching out! We will contact you soon.");
-    reset();
+
+   // post submit function
+   const onSubmit = async (data) => {
+    setIsLoading(!isLoading);
+    try {
+  
+      // Prepare the contact info object
+      const contactInfo = {
+        name: data?.name,
+        email: data?.email,
+        phoneNumber: data?.phone,
+        whatsappNumber: data?.whatsapp,
+        message: data?.message,
+      };
+  
+      // Send the data to the server
+      const response = await axiosSecure.post('/api/user/contact', contactInfo);
+      setIsLoading(isLoading)
+      // Log the response and show a success notification
+      notification.success({
+        message: `${response?.data?.message}`,
+        placement: "topRight",
+      });
+      reset();
+    } catch (err) {
+    
+      // Log the error for debugging
+      notification.error({
+        message: `${err?.response?.data?.message}`,
+        placement: "topRight",
+      });
+    }
+    finally{
+      setIsLoading(isLoading)
+    }
   };
+
 
   //
   return (
@@ -85,12 +123,12 @@ const ContactUs = () => {
                   type="tel"
                   placeholder="Whatsapp Number"
                   className="w-full p-4 border border-[#F6F7F9]  rounded focus:outline-none bg-[#F6F7F9]"
-                  {...register("phone", {
-                    required: "Phone number is required",
+                  {...register("whatsapp", {
+                    required: "Whatsapp number is required",
                   })}
                 />
-                {errors.phone && (
-                  <p className="text-red-500 text-sm">{errors.phone.message}</p>
+                {errors.whatsapp && (
+                  <p className="text-red-500 text-sm">{errors.whatsapp.message}</p>
                 )}
               </div>
             </div>
@@ -109,9 +147,9 @@ const ContactUs = () => {
 
             <button
               type="submit"
-              className="w-full bg-gradient-to-r from-blue-900 to-[#006837] text-white py-2 rounded hover:bg-gradient-to-l transition-all ease-in-out hover:from-blue-900 hover:to-[#006837] duration-300"
+              className="flex justify-center items-center gap-3 cursor-pointer w-full bg-gradient-to-r from-blue-900 to-[#006837] text-white py-2 rounded hover:bg-gradient-to-l transition-all ease-in-out hover:from-blue-900 hover:to-[#006837] duration-300"
             >
-              Send Message
+             {isLoading && <Spin size="small"/>} Send Message
             </button>
           </form>
         </div>

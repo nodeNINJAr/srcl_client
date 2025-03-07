@@ -21,8 +21,6 @@ import Completed from "../pages/publicPages/allprojects/Completed";
 import YearWise from "../pages/publicPages/allprojects/YearWise";
 
 
-
-
 // ** routing 
 const Router = () => {
     return (
