@@ -53,7 +53,6 @@ const [isLoading, setIsLoading] = useState(false);
     }
   };
 
-
   //
   return (
     <section className="flex items-center justify-center min-h-screen bg-white py-10 md:py-20">
