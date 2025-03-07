@@ -17,7 +17,7 @@ const stats = [
   {
     id: 2,
     value: "199",
-    label: "Projects Finished",
+    label: "Completed Projects",
     icon: <CheckCircleOutlined className="text-green-500 text-4xl" />,
   },
   {

@@ -1,13 +1,18 @@
 import React from "react";
 import { Link } from "react-router";
-import './contactBtn.css'
+import "./contactBtn.css";
 
 const ContactBtn = () => {
   return (
     <div>
-      <button className="glow-on-hover font-Varela font-semibold" type="button">
-          <Link to="/contact">Contact Us !</Link>
-      </button>
+      <Link to='/contact'>
+        <button
+          className="glow-on-hover font-Varela font-semibold"
+          type="button"
+        >
+          Contact Us !
+        </button>
+      </Link>
     </div>
   );
 };

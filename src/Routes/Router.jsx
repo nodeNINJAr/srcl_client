@@ -15,7 +15,7 @@ import OurDepartments from "../pages/publicPages/OurDepartments";
 import AllProjects from "../pages/publicPages/AllProjects";
 import OnGoing from "../pages/publicPages/OnGoing";
 import ContactUs from "../pages/publicPages/ContactUs";
-
+import CarbonCalculation from "../pages/publicPages/CarbonCalculation";
 
 
 // ** routing 
@@ -36,6 +36,7 @@ const Router = () => {
              </Route>
              <Route path="news-events-notices" element={<Nen />}/>
              <Route path="career" element={<Career/>}/>
+             <Route path="carbon-calculation" element={<CarbonCalculation />}/>
              <Route path="g-card" element={<Gcard />}/>
              <Route path="contact" element={<ContactUs />}/>
         </Route>

@@ -15,14 +15,11 @@ const WhoWeAreSection = () => {
       <div className="flex justify-between items-start gap-x-16 flex-wrap md:flex-nowrap">
         {/* Left Column */}
           <div>
-            <Title
-              level={1}
-              className="text-center font-bold text-5xl font-roboto text-gray-800 capitalize"
-            >
-              Who We Are
+            <Title>
+               <h1 className="text-center font-bold text-5xl font-Varela text-gray-800 capitalize"> Who We Are</h1>
             </Title>
             <Slide direction="left" duration={1500}>
-              <p className="text-lg text-gray-600 leading-relaxed font-roboto mb-2 text-justify">
+              <p className="text-base text-gray-600 leading-relaxed font-Varela mb-2 text-justify">
                 Sustainable Research and Consultancy Ltd. (SRCL) is a
                 combination of some multiple business enterprises like
                 construction consultancy, feasibility study, EIA, building
@@ -65,10 +62,8 @@ const WhoWeAreSection = () => {
         <Col xs={24} md={12}>
           <div>
             <Title
-              level={1}
-              className="text-center text-5xl font-semibold text-gray-800 pb-6"
-            >
-              Messages
+              level={1}>
+              <h1 className="text-center font-bold text-5xl font-Varela text-gray-800 capitalize pb-8">Messages</h1>
             </Title>
           </div>
 

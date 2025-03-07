@@ -18,14 +18,14 @@ const ContactUs = () => {
 
   //
   return (
-    <section className="flex items-center justify-center min-h-screen p-6 bg-white py-20">
-      <div className="w-11/12 grid grid-cols-1 md:grid-cols-5 gap-20">
+    <section className="flex items-center justify-center min-h-screen bg-white py-10 md:py-20">
+      <div className="px-2 sm:px-0 sm:w-11/12 grid grid-cols-1 md:grid-cols-5 gap-y-8 gap-x-20">
         {/* Left Side - Contact Information */}
-        <div className="col-span-2 bg-gradient-to-b from-blue-900 to-[#006837] p-6 rounded-lg shadow-lg">
+        <div className="col-span-1 md:col-span-2 bg-gradient-to-b from-blue-900 to-[#006837] p-6 rounded-lg shadow-lg">
           <ContactInfo />
         </div>
         {/* Right Side - Contact Form */}
-        <div className="col-span-3">
+        <div className="col-span-1 md:col-span-3">
            <div className="mb-8">
               <p className="text-blue-600 font-Varela font-semibold my-4">Get In Touch</p>
               <h2 className="text-4xl font-bold font-Albert mt-3">Fill The Form Below</h2>

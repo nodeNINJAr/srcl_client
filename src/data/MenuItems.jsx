@@ -23,7 +23,19 @@ export const menuItems = [
   },
   {
     key: "our-departments",
-    label: <Link to="/departments">Our Departments</Link>,
+    label: <span className="flex justify-between items-center gap-1">Departments <MdKeyboardArrowDown className="text-lg hidden lg:flex" /></span>,
+    children: [
+      {
+        key:"training",
+        label: <span className="flex justify-between items-center gap-1"> Training </span>,
+        children: [
+          { key: "upcoming-training", label: <Link to="/training/upcoming">Upcoming Training</Link> },
+          { key: "past-training", label: <Link to="/training/past">Past Training</Link> },
+          { key: "training-facility", label: <Link to="/training/facility">Training Facility</Link> },
+          { key: "training-calendar", label: <Link to="/training/calendar">Training Calendar</Link> },
+        ],
+      },
+    ],
   },
   {
     key: "services",
@@ -31,7 +43,7 @@ export const menuItems = [
   },
   {
     key: "projects",
-    label: <span className="flex justify-between items-center gap-1">Our Projects <MdKeyboardArrowDown className="text-lg hidden lg:flex" /></span>,
+    label: <span className="flex justify-between items-center gap-1">Projects <MdKeyboardArrowDown className="text-lg hidden lg:flex" /></span>,
     children: [
       { key: "on-going", label: <Link to="/projects/On-going">On Going Projects</Link> },
       { key: "all-projects", label: <Link to="/projects/all">All Projects</Link> },
@@ -58,16 +70,7 @@ export const menuItems = [
       { key: "publications", label: <Link to="/resources/publications">Publications</Link> },
     ],
   },
-  {
-    key:"training",
-    label: <span className="flex justify-between items-center gap-1"> Training <MdKeyboardArrowDown className="text-lg hidden lg:flex" /></span>,
-    children: [
-      { key: "upcoming-training", label: <Link to="/training/upcoming">Upcoming Training</Link> },
-      { key: "past-training", label: <Link to="/training/past">Past Training</Link> },
-      { key: "training-facility", label: <Link to="/training/facility">Training Facility</Link> },
-      { key: "training-calendar", label: <Link to="/training/calendar">Training Calendar</Link> },
-    ],
-  },
+  
   {
     key:"career",
     label: <span className="flex justify-between items-center gap-1"> Career <MdKeyboardArrowDown className="text-lg hidden lg:flex" /></span>,
@@ -76,6 +79,10 @@ export const menuItems = [
       { key: "vacancy-status", label: <Link to="/career/vacancy-status">Vacancy Status</Link> },
       { key: "how-to-apply", label: <Link to="/career/how-to-apply">How to Apply</Link> },
     ],
+  },
+  {
+    key: "carbon-calculation",
+    label:<span className="flex justify-between items-center gap-1"><Link to={'/carbon-calculation'}>Carbon Calculation</Link></span>
   },
   {
     key: "g-card",
@@ -87,6 +94,6 @@ export const menuItems = [
     //   { key: "contact-gcard", label: <Link to="/g-card/contact">Contact US</Link> },
     // ],
   },
-  { key: "news-events-notices", label: <Link to="/news-events-notices">News | Events | Notices</Link> },
+  { key: "news-events-notices", label: <Link to="/news-events-notices"> Notices | Events | News </Link> },
   { key: "contact", label: <Link to="/contact">Contact Us</Link> }
 ];

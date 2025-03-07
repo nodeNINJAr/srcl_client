@@ -16,7 +16,7 @@ export default function MegaMenu() {
 
   return (
     <div className="bg-white shadow-md px-4 flex justify-between items-center font-roboto">
-      <div className="text-4xl font-bold w-1/12 font-Poppins"><a href={'/'}><img className="w-24 h-24" src={logo} alt="SRCL" /></a></div>
+      <div className="text-4xl font-bold w-1/12 font-Poppins"><a href={'/'}><img className="w-24 h-24 mx-auto block" src={logo} alt="SRCL" /></a></div>
       {/* Desktop Menu (Hover to open submenu) */}
       <div className="hidden lg:flex justify-end flex-1">
         <Menu 

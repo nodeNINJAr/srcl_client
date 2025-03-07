@@ -3,15 +3,14 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-gray-900 text-white py-12 font-roboto">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
             <h3 className="text-xl font-bold mb-4">About Us</h3>
             <p className="text-gray-400">
-              We are a team of passionate developers and designers creating
-              amazing web experiences.
+            SRCL is a professional consulting firm specializing in engineering, infrastructure development, and environmental studies. The company provides comprehensive solutions for government and private sector projects, offering expertise in transport planning and GIS mapping.
             </p>
           </div>
 
@@ -47,9 +46,9 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <ul className="space-y-2">
               <li className="text-gray-400">Email: info@example.com</li>
-              <li className="text-gray-400">Phone: +1 234 567 890</li>
+              <li className="text-gray-400">Phone: +880 1711459532</li>
               <li className="text-gray-400">
-                Address: 123 Main St, City, Country
+                Address: Al-Amin Millennium Tower, Suite #A11, 75-76,Kakrail, Dhaka-1217, Bangladesh
               </li>
             </ul>
           </div>
@@ -98,7 +97,7 @@ const Footer = () => {
         {/* Copyright Section */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+            &copy; {new Date().getFullYear()} SRCLGROUP.COM All rights reserved.
           </p>
         </div>
       </div>

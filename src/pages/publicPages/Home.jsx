@@ -7,6 +7,7 @@ import Banner from "../../components/home/Banner";
 import StatsSection from "../../components/home/StatsSection";
 import OurOnGoingProjects from "../../components/home/OurOnGoingProjects";
 import ContactUs from "../../components/home/ContactUs";
+import OurSisterConcern from "../../components/home/OurSisterConcern";
 
 
 
@@ -35,11 +36,15 @@ const Home = () => {
          <OurOnGoingProjects/>
       </section>
        {/* landmark projects */}
-       <section className="w-11/12 mx-auto">
+       <section className="w-11/12 mx-auto py-8">
          <OurLandmarkProjects/>
       </section>
+      {/* sister concern */}
+      <section className="pb-16 w-11/12 mx-auto">
+         <OurSisterConcern/>
+      </section>
       {/*  */}
-      <section className="py-20 w-11/12 mx-auto">
+      <section className="pb-16 w-11/12 mx-auto">
          <OurPartnerShip/>
       </section>
       {/* contact-us section */}

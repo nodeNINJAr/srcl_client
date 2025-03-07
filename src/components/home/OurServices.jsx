@@ -13,7 +13,6 @@ const OurServices = () => {
     <div>
       <Heading title1={"Featured"} title2={"services"} />
       {/*  */}
-      <Fade duration={1500} direction="up">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {services.length > 0 && (
             <>
@@ -23,8 +22,7 @@ const OurServices = () => {
             </>
           )}
         </div>
-      </Fade>
-      <Link to={"/services"} className="text-center font-roboto mt-6 block">
+      <Link to={"/services"} className="text-center font-roboto block -mb-40">
         <button value={"outline"} className="font-medium text-lg bg">
            <SeeAllButton />
         </button>
