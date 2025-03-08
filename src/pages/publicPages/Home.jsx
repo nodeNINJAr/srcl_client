@@ -8,6 +8,8 @@ import StatsSection from "../../components/home/StatsSection";
 import OurOnGoingProjects from "../../components/home/OurOnGoingProjects";
 import ContactUs from "../../components/home/ContactUs";
 import OurSisterConcern from "../../components/home/OurSisterConcern";
+import VideoShowCasing from "../../components/home/VideoShowCasing";
+
 
 
 // ** home page
@@ -26,24 +28,28 @@ const Home = () => {
          <StatsSection/>
       </section>
       {/* services */}
-      <section className="w-11/12 mx-auto ">
+      <section className="w-11/12 mx-auto pt-6">
          <OurServices/>
       </section>
        {/* landmark projects */}
-       <section className="w-11/12 mx-auto">
+       <section className="w-11/12 mx-auto pt-8">
          <OurOnGoingProjects/>
       </section>
        {/* landmark projects */}
-       <section className="w-11/12 mx-auto py-8">
+       <section className="w-11/12 mx-auto py-16">
          <OurLandmarkProjects/>
       </section>
       {/* sister concern */}
-      <section className="pb-10 w-11/12 mx-auto">
+      <section className="pb-16 w-11/12 mx-auto">
          <OurSisterConcern/>
       </section>
       {/*  */}
       <section className="pb-16 w-11/12 mx-auto">
          <OurPartnerShip/>
+      </section>
+      {/* video showcasing */}
+      <section>
+          <VideoShowCasing/>
       </section>
       {/* contact-us section */}
       <section className="contact_bg mx-auto">
