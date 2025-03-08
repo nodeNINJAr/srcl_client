@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">About Us</h3>
             <p className="text-gray-400">
-            SRCL is a professional consulting firm specializing in engineering, infrastructure development, and environmental studies. The company provides comprehensive solutions for government and private sector projects, offering expertise in transport planning and GIS mapping.
+               SRCL is a professional consulting firm specializing in engineering, infrastructure development, and environmental studies. The company provides comprehensive solutions for government and private sector projects, offering expertise in transport planning and GIS mapping.
             </p>
           </div>
 

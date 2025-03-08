@@ -1,130 +1,156 @@
  [
-    {
-      "id": 1,
-      "title": "Environmental Quality Survey for Narayanganj Transport Plan",
-      "short_description": "Assessing environmental impacts for sustainable urban transport.",
-      "description": "A comprehensive survey to evaluate the environmental impact of the proposed transport master plan for Narayanganj City Corporation, ensuring sustainable urban mobility.",
-      "category": "Completed",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 2,
-      "title": "Upgrading National Highway N-6 and N-603 (Rajshahi Bypass)",
-      "short_description": "Expansion of highways to four lanes for better connectivity.",
-      "description": "Development of the Belpukur to Katakhali section of National Highway N-6 and the Rajshahi Bypass (N-603) into four lanes to enhance transportation efficiency and safety.",
-      "category": "Completed",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 3,
-      "title": "Southern Agricultural Improvement Project (SAIP)",
-      "short_description": "Boosting agricultural productivity in southern regions.",
-      "description": "A project aimed at modernizing agricultural practices, improving irrigation, and increasing farm productivity in the southern regions of Bangladesh.",
-      "category": "Completed",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 4,
-      "title": "Sustainable Management of Inland Fisheries",
-      "short_description": "Ecosystem-based fisheries management for sustainability.",
-      "description": "A stocktaking report on the sustainable management of inland fisheries using an ecosystem-based approach to ensure long-term conservation and resource efficiency.",
-      "category": "Completed",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 5,
-      "title": "Good Aquaculture Practices & Cluster Farming",
-      "short_description": "Promoting sustainable aquaculture and farming techniques.",
-      "description": "A study on the implementation of good aquaculture practices and the benefits of cluster farming in enhancing production and sustainability in the aquaculture sector.",
-      "category": "Completed",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 6,
-      "title": "Women's Income-Generating Training (Phase 2)",
-      "short_description": "Empowering women through skill-based training.",
-      "description": "An initiative designed to provide women at the Upazila level with income-generating training, enhancing their employment opportunities and financial independence.",
-      "category": "Completed",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 7,
-      "title": "Chattogram Tax Building Construction",
-      "short_description": "New tax office infrastructure in Chattogram.",
-      "description": "Construction of a modern tax office building in Chattogram to improve administrative efficiency and facilitate better taxpayer services.",
-      "category": "Completed",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 8,
-      "title": "GIS Survey for Natural Capital Mapping",
-      "short_description": "Mapping land cover and natural capital using GIS.",
-      "description": "A GIS-based field survey aimed at generating land cover and natural capital maps to support integrated forest management and conservation efforts.",
-      "category": "Completed",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 9,
-      "title": "Renovation of Government Water Bodies in Mymensingh",
-      "short_description": "Restoring ponds and water bodies for better resource management.",
-      "description": "A project focused on renovating and excavating government-owned ponds, kachari ponds, and other water bodies in Mymensingh to enhance water conservation and usage.",
-      "category": "OnGoing",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 10,
-      "title": "Assessment of Pond Sand Filter & Groundwater Salinity",
-      "short_description": "Evaluating water filtration systems for safe drinking water.",
-      "description": "A detailed assessment of pond sand filters, reverse osmosis systems, and groundwater salinity levels to ensure safe drinking water access in affected areas.",
-      "category": "OnGoing",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 11,
-      "title": "Development of Bangladesh Fisheries Survey Method",
-      "short_description": "Enhancing data collection for fisheries resource assessment.",
-      "description": "A project aimed at improving the methodology for surveying and analyzing Bangladesh’s fisheries resources to support sustainable fisheries management.",
-      "category": "OnGoing",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 12,
-      "title": "Bangladesh Energy Regulatory Commission (BERC) Building Construction",
-      "short_description": "New headquarters for energy regulation and governance.",
-      "description": "Construction of a state-of-the-art office building for the Bangladesh Energy Regulatory Commission (BERC) to enhance governance in the energy sector.",
-      "category": "OnGoing",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 13,
-      "title": "Academic Building Construction for National Heart Institute",
-      "short_description": "Expanding medical education and research facilities.",
-      "description": "Development of an academic building at the National Heart Institute in Sher-e-Bangla Nagar, Dhaka, to support medical education, research, and training.",
-      "category": "OnGoing",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 14,
-      "title": "Rajshahi 4-Lane Connecting Road Construction",
-      "short_description": "New four-lane road to improve city connectivity.",
-      "description": "Construction of a four-lane connecting road from Alif Lam Meem Bhata to Kashiadanga Rail Crossing, enhancing traffic flow and connectivity in Rajshahi.",
-      "category": "OnGoing",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 15,
-      "title": "Upgrading Regional Highways (Phase 2 - Rangpur Zone)",
-      "short_description": "Widening regional highways for better transport.",
-      "description": "A project to upgrade regional highways in the Rangpur Zone, improving road conditions and expanding capacity to meet growing transportation needs.",
-      "category": "OnGoing",
-      "image": "https://via.placeholder.com/400x250"
-    },
-    {
-      "id": 16,
-      "title": "Expansion of Chattogram-Cox’s Bazar Highway (N-1)",
-      "short_description": "Upgrading a major highway to support tourism and trade.",
-      "description": "Expansion of the Chattogram to Cox’s Bazar section of the N-1 National Highway into four lanes, facilitating smoother travel and boosting regional tourism.",
-      "category": "OnGoing",
-      "image": "https://via.placeholder.com/400x250"
-    }
+      {
+        "id":1,
+        "title": "Environmental Quality Survey for Comprehensive Transport Master Plan for Narayanganj City Corporation",
+        "client": "SMEC & Narayanganj City Corporation",
+        "funded_by": "GoB",
+        "description": "As part of the Transport Master Plan for Narayanganj City Corporation (NCC) under the Dhaka Transport Coordination Authority (DTCA), an extensive environmental quality survey has been initiated. This survey is critical to understanding and mitigating the environmental impacts associated with the proposed mass transit network and multimodal hub conceptual design. The survey encompasses multiple domains of the physical environment, ensuring that transportation development aligns with environmental sustainability and public health standards. Narayanganj, a key urban and industrial hub, is undergoing rapid urbanization, leading to increased transportation and industrial activities. This growth necessitates a well-coordinated transport master plan that not only addresses mobility needs but also ensures environmental protection. The DTCA has embarked on this comprehensive study to develop a Mass Transit Network and a Multimodal Hub, which are essential components for the city's future growth. The environmental quality survey forms the backbone of this initiative, providing crucial data to inform sustainable development practices. The environmental quality survey is a comprehensive assessment that evaluates various parameters across multiple domains within the physical environment, including Ambient Air Quality, Ambient Noise Quality, Surface Water Quality, Ground Water Quality, and Soil Quality. This survey is particularly crucial in regions where industrial, transportation, or construction activities are prevalent, as monitoring these parameters becomes essential to protect public health and preserve the environment. Various specific parameters such as pH, Temperature, Electrical Conductivity, Dissolved Oxygen, and others will be monitored in surface and ground water to assess contamination risks and ecological health. Soil quality assessments will focus on pollutants like Arsenic, Lead, Zinc, and Mercury, while noise and air quality surveys will focus on the impacts of urbanization and traffic.",
+        "image": "https://i.ibb.co.com/3ysJJfGY/IMG-20221123-134803.jpg",
+        "category": "Completed"
+      },
+      {
+        "id":2,
+        "title": "National Highway N-6 Belpukur to Kathakhali Section and Rajshahi City Bypass Road (N-603) 4-Lane Upgradation",
+        "client": "Roads and Highways Department, Chapainawabganj",
+        "funded_by": "GoB",
+        "description": "The National Highway N-6, which runs from Belpukur to Kathakhali, and the Rajshahi City Bypass Road (N-603) are undergoing a significant 4-lane upgradation. This project is aimed at accelerating the economic activities of Shibganj, Chapainawabganj district, and improving the connectivity with Sonamasjid Land Port for enhancing import, export, and business expansion across the country. The upgradation aims to ensure smooth vehicular traffic flow, reduce accidents, and alleviate public suffering caused by current road conditions. The project includes expanding the road to a 10.3-meter width and improving its infrastructure, benefiting both local communities and national trade activities. The upgraded roads will play a crucial role in reducing traffic congestion, fostering economic growth, and facilitating efficient transportation in the region. Additionally, it will ensure a safer, faster travel route between key destinations, which is essential for the region's long-term growth and development.",
+        "image": "https://i.ibb.co.com/1GjJXpNX/IMG-0431.jpg",
+        "category": "Completed"
+      },
+      {
+        "id": 3,
+        "title": "Southern Agricultural Improvement Project (SAIP)",
+        "client": "Bangladesh Agricultural Development Corporation (BADC)",
+        "funded_by": "GoB, World Bank",
+        "description": "The Southern Agricultural Improvement Project (SAIP) aims to significantly boost agricultural production and earnings for small farmers in the southern regions of Bangladesh. Funded by the World Bank and the Ministry of Agriculture (MoA), this project focuses on the most climate-vulnerable regions of the country, namely Khulna, Barishal, and Chattogram divisions. The SAIP aligns with the Bangladesh Delta Plan 2100 (BDP-2100) to address the challenges of global climate change, extreme weather patterns, and the need for crop adaptation strategies. By leveraging local renewable resources and implementing market-leading agricultural practices, the project will enhance food security and provide sustainable livelihood opportunities for rural communities. The primary goal is to ensure self-sufficiency in food production while reducing poverty and improving the quality of life for smallholder farmers through training, capacity building, and access to modern agricultural techniques.",
+        "image": "https://i.ibb.co.com/kg4QNNtK/IMG20230925124417.jpg",
+        "category": "Completed"
+      },
+      {
+        "id": 4,
+        "title": "Stocktaking Report on Sustainable Management of Inland Fisheries Using the Ecosystem Approach",
+        "client": "Department of Fisheries",
+        "funded_by": "GoB",
+        "description": "Inland fisheries are a critical component of Bangladesh's economy and food security, covering vast water bodies such as rivers, floodplains, beels, and lakes. This report presents a comprehensive stocktaking of the current state of inland fisheries and highlights strategies for their sustainable management using an ecosystem-based approach. Bangladesh’s inland open-water fisheries encompass around 4.05 million hectares, including riverine and floodplain fisheries, which are vital for local fish production. This report outlines the challenges faced by inland fisheries, including overfishing, pollution, and climate change impacts, and recommends policies to address these issues. By using ecosystem management principles, the report emphasizes maintaining ecological balance while improving fish production. It also highlights the importance of preserving aquatic ecosystems and ensuring sustainable fisheries management practices that can withstand both current and future environmental challenges.",
+        "image": "https://i.ibb.co.com/JRNcnQsL/IMG20250203121320.jpg",
+        "category": "Completed"
+      },
+      {
+        "id": 5,
+        "title": "Haor Infrastructure and Livelihood Improvement Project (HILIP) and Climate Adaptation and Livelihood Protection (CALIP) Project",
+        "client": "Local Government Engineering Department (LGED)",
+        "funded_by": "GoB, IFAD",
+        "description": "The Haor Infrastructure and Livelihood Improvement Project (HILIP) and its supplementary project, the Climate Adaptation and Livelihood Protection (CALIP) project, are jointly funded by the Government of Bangladesh (GoB) and the International Fund for Agricultural Development (IFAD). These projects focus on enhancing the resilience of communities in Bangladesh’s haor regions, which are highly vulnerable to climate change impacts such as floods, erosion, and other environmental challenges. The projects aim to improve the livelihoods of local communities by increasing income, employment opportunities, and access to climate-resilient infrastructure. A significant component of the CALIP is the Gender Mainstreaming Study, which assesses how project interventions have impacted women’s empowerment and socio-economic development. The study highlights the improvements in income, skills, and community participation, and suggests measures to integrate gender equality into future projects for greater social impact.",
+        "image": "https://i.ibb.co.com/G4g1jRF9/IMG20250225144547.jpg",
+        "category": "Completed"
+      },
+      {
+        "id": 6,
+        "title": "Income Generating Activities (IGA) Training Project for Women at the Upazila Level (Phase 2)",
+        "client": "Department of Women Affairs (DWA)",
+        "funded_by": "GoB",
+        "description": "The Income Generating Activities (IGA) Training Project, Phase 2, under the Department of Women Affairs (DWA), aims to empower women across 431 Upazilas, 64 districts, and 8 divisional cities in Bangladesh. The project has successfully trained approximately 50,000 women, helping them transition into self-reliant entrepreneurs. The training program focuses on imparting skills in various income-generating activities, which has boosted the socio-economic status of the participants. This initiative plays a crucial role in poverty alleviation and women’s empowerment, fostering economic independence and contributing to the national economic growth. The project also integrates key awareness campaigns on critical social issues like gender-based violence, family planning, substance abuse, and HIV/AIDS, thus promoting broader social development goals.",
+        "image": "https://i.ibb.co.com/fV7dJTvd/IMG20230912153224.jpg",
+        "category": "Completed"
+      },
+      {
+        "id": 7,
+        "title": "Chattogram Tax Building Construction",
+        "client": "National Board of Revenue, Chattogram",
+        "funded_by": "GoB",
+        "description": "The construction of the Chattogram Tax Building aims to resolve the longstanding issue of office space shortages for the tax departments in Chattogram, including the Tax Region, Appeal Region, Central Survey Region, and Large Taxpayers Unit. Currently, these departments are facing significant challenges due to the lack of a dedicated building. This project addresses these challenges by constructing a modern, 20-story office building that will accommodate the growing needs of the Chattogram tax administration. The building will be designed with a focus on security, privacy, and operational efficiency, ensuring that confidential documents and data are well-protected. The project is expected to play a pivotal role in enhancing the operational efficiency of the National Board of Revenue and improving public services related to tax collection and administration. The planned building will span a total area of 46,743.64 square meters, with a pile foundation structure, and is slated for completion by December 2028.",
+        "image": "https://i.ibb.co.com/35qXw0YH/20220628-114423.jpg",
+        "category": "Completed"
+      },
+    
+      {
+        "id": 8,
+        "title": "Geographic Information System (GIS) Field Survey of Natural Capital Mapping under the Assignment Titled 'Generation of the Land Cover and Natural Capital Map and Developing Integrated Collaborative Forest Management Plans' under the Supporting Flood Forecast-Based Action and Learning (SUFAL) Project",
+        "client": "Centre for Environmental and Geographic Information Services (CEGIS)",
+        "funded_by": "World Funded & GoB, Department of Forest",
+        "description": "This project involves a comprehensive GIS field survey aimed at mapping the natural capital of Bangladesh, focusing on land cover and the development of integrated collaborative forest management plans. The primary objective is to generate accurate land cover and natural capital maps that will serve as a foundation for sustainable forest management practices. The project is part of the larger Supporting Flood Forecast-Based Action and Learning (SUFAL) Project, which aims to enhance flood preparedness and resilience. The GIS mapping data will be used to assess the impacts of flood events on natural resources, helping in flood mitigation strategies and ensuring that environmental management practices align with sustainable development goals. The project will involve extensive field surveys across various geographical areas, collecting data on forest resources, land use, biodiversity, and ecosystem services.",
+        "image": "images/gis_survey.jpg",
+        "category": "Completed"
+      },
+      {
+        "id": 9,
+        "title": "Environmental Impact Assessment of the Redmin Industries Ltd.",
+        "client": "Redmin Industries Ltd.",
+        "funded_by": "Redmin Industries Ltd.",
+        "description": "The Environmental Impact Assessment (EIA) for Redmin Industries Ltd. aims to evaluate the potential environmental impacts of the proposed industrial activities before they commence. This proactive step ensures that any environmental concerns are addressed early in the project lifecycle. The proposed plant, located in Madhabdi, Narshingdi, will focus on manufacturing a variety of products, including hot melt adhesives, solvent-based adhesives, water-based adhesives, powder coatings, and masterbatch. These products are essential in several industries, such as bookbinding, packaging, shoe manufacturing, furniture production, and plastic manufacturing. The EIA will identify and assess the environmental footprints of each product category and provide recommendations for minimizing negative environmental impacts. The construction phase will be limited to preparation works, as the plant will be set up in an already established shed. The operational phase will be assessed for its impact on air quality, water resources, waste management, and overall ecological balance. This report will ensure that Redmin Industries complies with environmental regulations, particularly as the project falls under the 'Red' category, which requires a thorough EIA report according to the Environmental Conservation Rules of 1997.",
+        "image": "images/redmin_eia.jpg",
+        "category": "Completed"
+      },  
+      {
+        "id": 10,
+        "title": "Renovation and Excavation of Pond and Government Water Bodies Adjacent to the Upazila Land Office and Union Land Office in Mymensingh Division",
+        "client": "Land Reform Board",
+        "funded_by": "GoB",
+        "description": "In Bangladesh's riverine regions, a project has been initiated to excavate and restore 253 ponds/water bodies adjacent to the Upazila and Union Land Offices in Mymensingh Division. The primary goal is to rejuvenate and ensure sustainable management of these water bodies, enhancing aquatic resources and supporting local communities who rely on them for agriculture, fishing, and other economic activities.",
+        "image": "https://i.ibb.co.com/gF6w35Tw/PXL-20250203-095252145.jpg",
+        "category": "Ongoing"
+      },
+      {
+        "id": 11,
+        "title": "The Assessment of Pond Sand Filter, Reverse Osmosis System and the Groundwater Salinity Front",
+        "client": "United Nations Development Programme (UNDP)",
+        "funded_by": "UNDP",
+        "description": "A project focused on addressing the challenges of rising salinity and climate change in Bangladesh’s coastal areas, particularly in Khulna and Satkhira, impacting vulnerable communities. The project involves the assessment of Pond Sand Filters and Reverse Osmosis systems to improve water quality and provide clean drinking water. The goal is to mitigate the negative impacts of saline intrusion into groundwater and surface water bodies, ensuring better access to safe water for coastal communities.",
+        "image": "https://i.ibb.co.com/3yyvgk7B/images.jpg",
+        "category": "Ongoing"
+      },
+      {
+        "id": 12,
+        "title": "Fishery Resource Survey Methodology Improvement Project",
+        "client": "Department of Fisheries",
+        "funded_by": "GoB",
+        "description": "This project aims to modernize the fishery resource survey system and develop a digital database for seasonal aquatic resources across Bangladesh. It is designed to support the development of a Smart Bangladesh by collecting accurate data on fishery resources, improving the overall management of aquatic ecosystems, and providing policymakers with up-to-date information for better decision-making in the fisheries sector.",
+        "image": "https://i.ibb.co.com/1tqX5jhZ/IMG-20250226-140044-450.jpg",
+        "category": "Ongoing"
+      },
+      {
+        "id":13,
+        "title": "Construction of the Bangladesh Energy Regulatory Commission (BERC) Building",
+        "client": "Bangladesh Energy Regulatory Commission (BERC)",
+        "funded_by": "GoB",
+        "description": "This project involves the construction of a modern office building for BERC to replace its current rented premises. The new building is designed to provide better facilities for the regulatory body, improving its operational capacity. The development of this building will contribute to a more efficient regulatory framework for energy distribution, consumption, and policies in Bangladesh, ultimately strengthening the country’s energy sector.",
+        "image": "https://i.ibb.co.com/JwX40zCZ/IMG20250106160402.jpg",
+        "category": "Ongoing"
+      },
+      {
+        "id": 14,
+        "title": "Construction of Academic Building for National Heart Foundation and Hospital in Sher-e-Bangla Nagar, Dhaka",
+        "client": "National Heart Foundation and Hospital",
+        "funded_by": "GoB",
+        "description": "The construction of a 12-story academic building aims to enhance medical facilities for heart disease patients in Bangladesh. The building will include classrooms, conference halls, and research centers, helping to provide adequate training and resources for medical professionals. Additionally, the hospital expansion will ensure sufficient bed capacity and modern services, contributing to the overall growth of cardiac care in the country.",
+        "image": "https://i.ibb.co.com/dsg17tTM/IMG20231210114428.jpg",
+        "category": "Ongoing"
+      },
+      {
+        "id": 15,
+        "title": "Upgrading the Road Section from Chattogram to Cox's Bazar on Dhaka (Jatrabari) - Comilla (Moinamoti) - Chattogram - Cox's Bazar Highway (N-1) to a 4-Lane Road",
+        "client": "Roads and Highways Department, Chattogram",
+        "funded_by": "GoB",
+        "description": "The road section from Chattogram to Cox's Bazar is a crucial part of the Dhaka (Jatrabari) - Comilla (Moinamoti) - Chattogram - Cox's Bazar highway (N-1). This highway is part of several important regional corridors such as Asian Highway-1, Asian Highway-2, BCIM-1, BIMSTEC-3, and the SAARC Corridor. This highway provides the essential road link between Cox's Bazar, the world’s longest sea beach, and other parts of the country, including Dhaka. The road also facilitates the transportation of goods such as seafood, dried fish, betel leaves, and various forest products from Cox's Bazar and Bandarban to the rest of the country. With the government declaring Maheshkhali as a power hub and ongoing developments like the largest thermal power plant in the country, LNG terminals, and a deep-sea port, the road development is crucial to meet the rising demand for transportation in this region. Furthermore, government plans for a special economic zone and tourist zone in Cox's Bazar emphasize the need for upgraded road infrastructure to support both economic and tourism growth. The current 2-lane road, built in the 1990s, is not sufficient, and the narrow width and winding roads pose significant safety risks, including accidents and difficulties for overtaking. The project proposes the expansion of the road to a 4-lane highway with separate service lanes, spanning a total of 129.93 km, to alleviate traffic issues, ensure safety, and meet growing transportation demands.",
+        "image": "https://i.ibb.co.com/RpWnX3b9/IMG-20220823-091021-Riyan.jpg",
+        "category": "Ongoing"
+      },
+      {
+        "id": 16,
+        "title": "Upgrading Regional Highways to Proper Standards and Width: Phase 2 (Rangpur Zone)",
+        "client": "Roads and Highways Department, Rangpur",
+        "funded_by": "GoB",
+        "description": "According to the HDM Survey Project 2013, priority was given to the most damaged district roads under the Rangpur Road Zone, and 232.08 km (12.51%) of district highways were repaired and upgraded under the District Road Development Project (Rangpur Zone). The first phase of the development work of 313.64 km of district roads in 29 districts, which amounts to 16.91% of the total length of district roads, has already been completed. Additionally, around 849.80 km of road development/repair work has been completed under ongoing and previously completed projects. The total length of the 121 district highways transferred from LGED is 1883.27 km. Currently, the remaining roads, totaling 401.722 km, are severely damaged and pose significant risks to vehicle movement and cargo transportation. The proposed project 'Upgrading District Roads to Proper Standards and Width (Rangpur Zone) Phase 2' is necessary to restore these roads to a safe and efficient state. The existing narrow roads, with widths as narrow as 3.70 meters, cannot accommodate two vehicles traveling side by side, which often results in accidents. The proposal includes the widening of roads from 3.70 meters to a more suitable 5.50 meters to meet the growing transportation demands and improve road safety. Several roads also have dangerous bends that pose a significant accident risk. The proposed works include the construction of embankments, road widening, rigid pavement construction, RCC culverts, RCC drains, and other protective measures to improve the roads and ensure safe transportation.",
+        "image": "https://i.ibb.co.com/Q3Yr32CD/IMG20230527124942.jpg",
+        "category": "Ongoing"
+      },
+      {
+        "id": 17,
+        "title": "Construction of 4-Lane Connecting Road from Alif Lam Mim Vat to Kashiadanga Railway Crossing on Rajshahi-Chapainawabganj Highway",
+        "client": "Rajshahi City Corporation",
+        "funded_by": "GoB",
+        "description": "The Rajshahi Bypass Road (RHD) extends from Belpukur, through Nawdapara Amchattar, up to Kashiadanga, located outside the city. This road serves as the main route for cargo trucks heading to Chapainawabganj from Dhaka and other districts, while passenger vehicles, buses, and microbuses travel through the city towards Chapainawabganj. The increasing number of vehicles, including trucks, buses, and other vehicles, passing through the city’s bus terminals, bus stands, commercial areas, and factories, is causing traffic congestion, which is rapidly worsening. To address this issue, the Rajshahi City Corporation, with funding from the Government of Bangladesh (GoB), has constructed a 4-lane road with a length of 6.78 km from the Dhaka Research Center on the Rajshahi-Natore Highway to Alif Lam Mim Vat on the Rajshahi-Nawganjha Highway. This road has already been opened to traffic and plays a vital role in alleviating traffic congestion in the city. Vehicles traveling from Kattakhali, Rajshahi University, Binodpur, Talaimari, Bhodra areas, as well as those heading to Rajshahi Shahmukhdum Airport and Nawganjha, are now able to travel smoothly. However, the lack of a direct 4-lane connection from Alif Lam Mim Vat to the Kashiadanga Railway Crossing on the Rajshahi-Chapainawabganj Highway limits the full benefits of the road. The proposed new road, which will connect this bypass road to the highway, will improve traffic flow and complete the road network. The new road will also benefit nearby markets, such as Nawdapara Bazar, Sujanagar Bazar, Rajshahi Medical University, Rajshahi City Hat, Court College, and Hargram Bazar, as well as educational and business institutions. Moreover, the construction of this road will allow smooth transportation of vehicles heading to Nawganjha and Natore from the city. In consideration of future expansion needs, it is proposed to construct this road as a 4-lane with the option to upgrade to a 6-lane in the future. The total length of the proposed 4-lane road is approximately 6.60 km, and the alignment requires the construction of a 492.00-meter overpass to ensure smooth traffic flow. Additionally, to further ensure smooth movement on the Rajshahi-Nawganjha Highway, an overpass will be constructed at the initial section of the road. The proposal also includes the construction of four intersections with roundabouts and traffic islands to ensure free-flowing traffic, along with the installation of adequate signboards and signals.",
+        "image": "image_url_6",
+        "category": "Proposed"
+      }  
   ]
