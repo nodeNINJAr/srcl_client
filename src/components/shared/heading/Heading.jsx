@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Fade } from "react-awesome-reveal";
 
 const Heading = ({ title1, title2 }) => {
@@ -11,6 +12,10 @@ const Heading = ({ title1, title2 }) => {
       </div>
     </Fade>
   );
+};
+Heading.propTypes = {
+  title1: PropTypes.string.isRequired,
+  title2: PropTypes.string.isRequired,
 };
 
 export default Heading;

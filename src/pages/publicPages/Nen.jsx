@@ -53,14 +53,16 @@ const noticesData = [
   },
 ];
 
+
+// 
 return (
-  <div className="min-h-screen bg-gray-100 p-6">
+  <div className="min-h-screen bg-gray-100 p-6 font-roboto">
     <div className="max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold text-center mb-8">News, Events & Notices</h1>
+      <h1 className="text-4xl font-bold text-center mb-8 font-Albert">News, Events & Notices</h1>
 
       {/* Tabs for News, Events, and Notices */}
       <Tabs defaultActiveKey="1" centered>
-        <TabPane tab="News" key="1">
+        <TabPane style={{fontWidth:"500"}} tab="News" key="1">
           <div className="space-y-4">
             {newsData.map((item) => (
               <div key={item.id} className="bg-white p-6 rounded-lg shadow-md">

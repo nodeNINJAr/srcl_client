@@ -6,6 +6,8 @@ import {
   ClockCircleOutlined,
 } from "@ant-design/icons";
 import { Fade } from "react-awesome-reveal";
+import CountUp from 'react-countup';
+import Heading from "../shared/heading/Heading";
 
 const stats = [
   {
@@ -34,20 +36,26 @@ const stats = [
   },
 ];
 
+// const formatter = (value) => <CountUp end={value} separator="," />;
 export default function StatsSection() {
   return (
-    <div className="py-10">
+    <div className="pb-10">
       <div className="w-11/12 mx-auto">
+         <Heading title1={"At a Glance:"} title2={'Our Impact'}/>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat) => (
             <Fade duration={1500} direction="up" key={stat?.id}>
               <Card key={stat.id} className="text-center shadow-md">
                 <div className="flex flex-col items-center space-y-2 py-8">
                   {stat.icon}
-                  <p className="text-3xl font-bold text-gray-900">
-                    {stat.value}
-                  </p>
-                  <p className="text-gray-500">{stat.label}</p>
+                    <CountUp
+                     className="text-2xl font-Poppins font-semibold"
+                     start={0}
+                     end={stat?.value}
+                     duration={5}
+                    >
+                    </CountUp>
+                  <p className="text-gray-500 font-medium">{stat.label}</p>
                 </div>
               </Card>
             </Fade>

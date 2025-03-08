@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -13,15 +12,18 @@ import { Fade } from "react-awesome-reveal";
 //
 const HeroSlider = () => {
   const slidesData = [
-    { bgClass: "bg-1", title: "Masterplan Police Staff Collage" },
-    { bgClass: "bg-2", title: "Drone survey" },
-    { bgClass: "bg-3", title: "EIA Project- Redmin" },
-    { bgClass: "bg-4", title: "Conserving the Nature Base, Coxs" },
-    { bgClass: "bg-5", title: "Conserving the Nature" },
-    { bgClass: "bg-6", title: "Conserving the Nature" },
-    { bgClass: "bg-7", title: "RHD" },
-    { bgClass: "bg-8", title: "UNDP" },
+    { bgClass: "bg-3", title: "Police Staff College Development" },
+    { bgClass: "bg-4", title: "Conservation Efforts in Cox's Bazar" },
+    { bgClass: "bg-5", title: "Aerial Drone Survey Insights" },
+    { bgClass: "bg-6", title: "Environmental Impact of Redmin Project" },
+    { bgClass: "bg-7", title: "RHD Infrastructure and Development" },
+    { bgClass: "bg-8", title: "UNDP Sustainable Development Projects" },
+    { bgClass: "bg-2", title: "Community Needs and Concerns Survey" },
+    { bgClass: "bg-10", title: "Effective Sanitation System Management" },
+    { bgClass: "bg-11", title: "Promoting Community Volunteerism" },
+    { bgClass: "bg-1", title: "Impact of Severe Flooding Crisis" }
   ];
+  
 
   //
   const progressCircle = useRef(null);
@@ -50,14 +52,14 @@ const HeroSlider = () => {
         {slidesData.map((slide) => (
           <SwiperSlide
             key={slide?.bgClass}
-            className={`${slide?.bgClass}  min-h-[400px] relative`}
+            className={`${slide?.bgClass}  min-h-[400px] relative `}
           >
             <Fade
               duration={1500}
               direction="up"
               className="absolute left-6 bottom-8"
             >
-              <h1 className="text-4xl font-semibold text-white">
+              <h1 className="text-4xl font-bold font-Albert capitalize text-black inline-block bg-white/20 px-4 py-1 rounded-lg">
                 {slide?.title}
               </h1>
             </Fade>

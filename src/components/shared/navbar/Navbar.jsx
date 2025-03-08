@@ -2,7 +2,8 @@ import { useState } from "react";
 import { Drawer, Menu, Button } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import { menuItems } from "../../../data/MenuItems";
-import logo from "../../../assets/image/hero-slider/logo/SRC-logo-PNG.png"
+import logo from "../../../assets/image/logo/SRC-logo.png"
+import { Tooltip } from 'react-tooltip'
 
 // 
 export default function MegaMenu() {
@@ -13,10 +14,12 @@ export default function MegaMenu() {
   const onOpenChange = (keys) => {
     setOpenKeys(keys);
   };
+   
 
+  // 
   return (
     <div className="bg-white shadow-md px-4 flex justify-between items-center font-roboto">
-      <div className="text-4xl font-bold w-1/12 font-Poppins"><a href={'/'}><img className="w-24 h-24 mx-auto block" src={logo} alt="SRCL" /></a></div>
+      <div title="jhkshhzss" className="text-4xl font-bold w-4/12 md:w-2/12 font-Poppins p-1 flex justify-start"><Tooltip id="my-tooltip"><a href={'/'}><img  className="w-16 h-16 xl:w-24 xl:h-24 mx-auto" src={logo} alt="SRCL" /></a></Tooltip></div>
       {/* Desktop Menu (Hover to open submenu) */}
       <div className="hidden lg:flex justify-end flex-1">
         <Menu 

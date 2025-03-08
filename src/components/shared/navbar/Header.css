@@ -1,0 +1,41 @@
+.header {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding:5px 10px 25px;
+    margin:auto;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .header-title {
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .header-action {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .header-icon {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icon {
+    color: white;
+    font-size: 1.2rem;
+  }

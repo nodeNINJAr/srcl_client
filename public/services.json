@@ -1,20 +1,24 @@
 [
-    {
-      "_id": 1,
-      "title": "4IR Training",
-      "short_desc": "Training for the Fourth Industrial Revolution (4IR) and skill development.",
-      "image": "https://via.placeholder.com/150",
-      "details": {
-        "description": "Comprehensive training programs designed to equip professionals with the skills required for Industry 4.0, including automation, AI, and smart technologies.",
-        "programs": [
-          "ToT Development Program for Community Nursing Program with Different Nursing Institute",
-          "International ToT Development Program",
-          "Private Caregiving Program",
-          "International Skills Development Program"
-        ],
-        "target_audience": ["Nurses", "Healthcare Professionals", "IT Engineers", "Industry Workers"]
-      }
-    },
+  {
+    "_id": 6,
+    "title": "Water Resource Management & Agriculture Consultancy",
+    "short_desc": "Water management, hydrology, and agricultural consultancy.",
+    "image": "https://via.placeholder.com/150",
+    "details": {
+      "description": "Specialized consultancy services in water resource management, agriculture, and sustainable development.",
+      "services": [
+        "Water Resource Management",
+        "Irrigation, Drainage and Flood Control",
+        "Drainage Master Plan",
+        "Embankment Protection",
+        "Ground Water Modelling",
+        "Hydrology and Hydrogeology",
+        "Simulation Modelling",
+        "Agriculture, Forestry and Fishery"
+      ],
+      "target_audience": ["Agricultural Firms", "Government Agencies", "Environmental Organizations"]
+    }
+  }, 
     {
       "_id": 2,
       "title": "Environmental and Social Consultancy",
@@ -94,25 +98,22 @@
       }
     },
     {
-      "_id": 6,
-      "title": "Water Resource Management & Agriculture Consultancy",
-      "short_desc": "Water management, hydrology, and agricultural consultancy.",
+      "_id": 1,
+      "title": "4IR Training",
+      "short_desc": "Training for the Fourth Industrial Revolution (4IR) and skill development.",
       "image": "https://via.placeholder.com/150",
       "details": {
-        "description": "Specialized consultancy services in water resource management, agriculture, and sustainable development.",
-        "services": [
-          "Water Resource Management",
-          "Irrigation, Drainage and Flood Control",
-          "Drainage Master Plan",
-          "Embankment Protection",
-          "Ground Water Modelling",
-          "Hydrology and Hydrogeology",
-          "Simulation Modelling",
-          "Agriculture, Forestry and Fishery"
+        "description": "Comprehensive training programs designed to equip professionals with the skills required for Industry 4.0, including automation, AI, and smart technologies.",
+        "programs": [
+          "ToT Development Program for Community Nursing Program with Different Nursing Institute",
+          "International ToT Development Program",
+          "Private Caregiving Program",
+          "International Skills Development Program"
         ],
-        "target_audience": ["Agricultural Firms", "Government Agencies", "Environmental Organizations"]
+        "target_audience": ["Nurses", "Healthcare Professionals", "IT Engineers", "Industry Workers"]
       }
     },
+   
     {
       "_id": 7,
       "title": "Dredging",

@@ -10,8 +10,6 @@ import ContactUs from "../../components/home/ContactUs";
 import OurSisterConcern from "../../components/home/OurSisterConcern";
 
 
-
-
 // ** home page
 const Home = () => {
   return (

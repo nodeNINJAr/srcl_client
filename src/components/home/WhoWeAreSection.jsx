@@ -29,7 +29,7 @@ const WhoWeAreSection = () => {
                 enterprise prompted us to undertake new business activities in
                 order to achieve our vision for consulting and construction.
               </p>
-              <p className="text-lg text-gray-600 leading-relaxed font-roboto mb-2 text-justify">
+              <p className="text-base text-gray-600 leading-relaxed font-Varela mb-2 text-justify">
                 Keeping pace with the changing business world, this group
                 flourished into a blooming group of business organizations with
                 the help of the dynamic leadership of its board of directors and
@@ -39,14 +39,14 @@ const WhoWeAreSection = () => {
               </p>
                {titleReadMore &&
                 <>
-                 <p className="text-lg text-gray-600 leading-relaxed font-roboto mb-2 text-justify">
+                 <p className="text-base text-gray-600 leading-relaxed font-Varela mb-2 text-justify">
                   Different Retried Govt. High Officials working as advisors and
                   young energetic, educated people are working as core team
                   members in this group. This group has Seven (7) sister concerns
                   which deal with Consultancy, NGO, Supply, agrobusiness, ICT,
                   real estate, support services, communication development, etc.
                 </p>
-                <p className="text-lg text-gray-600 leading-relaxed font-roboto mb-2 text-justify">
+                <p className="text-base text-gray-600 leading-relaxed font-Varela mb-2 text-justify">
                   Before bidding farewell to the present turbulent years, we hope
                   to accept the challenge of the new century, where our group
                   expects to contribute a lot towards the economic development of
