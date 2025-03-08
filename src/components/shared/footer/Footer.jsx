@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"; // Use any icon library
+import GoogleMapComponent from "../../googleMap/GoogleMapComponent";
 
 const Footer = () => {
   return (
@@ -53,7 +54,7 @@ const Footer = () => {
             </ul>
           </div>
               {/* Social Media Section and maps */}
-          <div>
+          <div className="space-y-4">
             <div>
               <h3 className="text-xl font-bold mb-4">Follow Us</h3>
               <div className="flex space-x-4">
@@ -91,6 +92,8 @@ const Footer = () => {
                 </a>
               </div>
             </div>
+            {/* google map */}
+             <GoogleMapComponent/>
           </div>
         </div>
 

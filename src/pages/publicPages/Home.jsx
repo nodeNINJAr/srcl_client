@@ -38,7 +38,7 @@ const Home = () => {
          <OurLandmarkProjects/>
       </section>
       {/* sister concern */}
-      <section className="pb-16 w-11/12 mx-auto">
+      <section className="pb-10 w-11/12 mx-auto">
          <OurSisterConcern/>
       </section>
       {/*  */}
