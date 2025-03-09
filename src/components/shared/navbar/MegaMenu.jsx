@@ -16,7 +16,7 @@ export default function MegaMenu() {
     if (openKeys.includes(key)) {
       setOpenKeys(openKeys.filter(k => k !== key));
     } else {
-      setOpenKeys([...openKeys, key]);s
+      setOpenKeys([...openKeys, key]);
     }
   };
 

@@ -8,8 +8,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 37.7749, // Default Latitude (e.g., San Francisco)
-  lng: -122.4194, // Default Longitude (e.g., San Francisco)
+  lat: 23.7373649, // Default Latitude (e.g., San Francisco)
+  lng: 90.4089887, // Default Longitude (e.g., San Francisco)
 };
 
 const GoogleMapComponent = () => {

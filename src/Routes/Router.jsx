@@ -19,6 +19,7 @@ import CarbonCalculation from "../pages/publicPages/CarbonCalculation";
 import ProjectsDetails from "../pages/publicPages/ProjectDetails";
 import Completed from "../pages/publicPages/allprojects/Completed";
 import YearWise from "../pages/publicPages/allprojects/YearWise";
+import LogisticSupports from "../pages/LogisticSupports";
 
 
 // ** routing 
@@ -27,11 +28,18 @@ const Router = () => {
       <Routes>
         <Route path="/" element={<Layout/>}>
              <Route index element={<Home />}/>
+             {/* department routes */}
              <Route path="departments" element={<OurDepartments />}/>
+          
              <Route path="services" element={<Services />}/>
              <Route path="services/:id" element={<ServiceDetails />}/>
              <Route path="about-us" element={<AboutUs/>} />
-             <Route path="resources" element={<Resources/>} />
+             <Route path="resources" element={<Resources/>}>
+                  <Route path=":category" element={<LogisticSupports/>}/>
+                  <Route path=":category" element={<LogisticSupports/>}/>
+                  <Route path=":category" element={<LogisticSupports/>}/>
+             </Route>
+               
              <Route path="training" element={<Training/>} />
              {/* projects route */}
              <Route path="projects" element={<OurProjects/>}>

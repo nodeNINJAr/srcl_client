@@ -16,7 +16,7 @@ const WhoWeAreSection = () => {
         {/* Left Column */}
           <div>
             <Title>
-               <h1 className="text-center font-bold text-5xl font-Varela text-gray-800 capitalize"> Who We Are</h1>
+               <p className="text-center font-bold text-5xl font-Varela text-gray-800 capitalize"> Who We Are</p>
             </Title>
             <Slide direction="left" duration={1500}>
               <p className="text-base text-gray-600 leading-relaxed font-Varela mb-2 text-justify">
@@ -63,7 +63,7 @@ const WhoWeAreSection = () => {
           <div>
             <Title
               level={1}>
-              <h1 className="text-center font-bold text-5xl font-Varela text-gray-800 capitalize pb-8">Messages</h1>
+              <p className="text-center font-bold text-5xl font-Varela text-gray-800 capitalize pb-8">Messages</p>
             </Title>
           </div>
 

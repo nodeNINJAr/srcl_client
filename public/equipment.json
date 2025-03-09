@@ -1,0 +1,55 @@
+ [
+    {
+        "id": 1,
+        "name": "Survey Equipment",
+        "category": "survey-equipment",
+        "items": [
+          {"id": 101, "brand": "Sokkia iM-52", "numbers": 1, "image": "https://i.ibb.co.com/kgGy58sv/10-Rz-Sc-MUTUWb6-Gzz5-Sr-MUSQLXT8-JTnp-X.jpg"},
+          {"id": 102, "brand": "Kolida KTS442R10", "numbers": 1, "image": "https://i.ibb.co.com/ycScVW1k/17brzo0d-JMBK2-Mmu-U-g-cd-Hoj2ms1-RUh.jpg"},
+          {"id": 201, "brand": "Emlid RS2+", "numbers": 2, "image": "https://i.ibb.co.com/cSbmzGsd/1-Uc1-FN49o-URYSx1-Saskzv-Yl66q-Mv-Co9.jpg"},
+          {"id": 202, "brand": "CHCnav 183", "numbers": 2, "image": "https://i.ibb.co.com/C31MGn7D/1-Sy-F2-Jq-SRKx-E4h-SEgi-M9-WCWkyz-O6od-IC.jpg"},
+          {"id": 301, "brand": "Sokkia B30", "numbers": 2, "image": "sokkia_b30.jpg"},
+          {"id": 401, "brand": "Sokkia B30", "numbers": 1, "image": "https://i.ibb.co.com/YFQVD305/1-RHkq-Kfidu-FN-Bt2-JMofi-If-Yneka-Yolz.jpg"},
+          {"id": 501, "brand": "Dji Mavic Air 3", "numbers": 2, "image": "https://i.ibb.co.com/dsSJDpd1/1n5-GL0r-IRb2-Yma-Fo-O5-Z3-TQ-GG2s-Jbco.jpg"}
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Testing Instrument",
+        "category": "testing-instrument",
+        "items": [
+          {"id": 601, "name": "Air Quality Sampler", "category": "Air Testing", "brand": "ENVIROTECH MODEL APM 250", "numbers": 2, "image": "https://i.ibb.co.com/gZxRbzsG/1-EAB3u21-Dt-CIYJEyzyb-8-NQW2n63he2-R.jpg"},
+          {"id": 602, "name": "Dust Sampler", "category": "Air Testing", "brand": "Fine Particulate Sampler (AIS-105)", "numbers": 1, "image":"https://i.ibb.co.com/rK9MBXZt/1-Cdx-USBoj-RHZNmt-PYj-QGk4rirx-Dd-S-IS.jpg"},
+          {"id": 603, "name": "Noise Meter", "category": "Noise Testing", "brand": "RZ (RZ1351)", "numbers": 2, "image": "https://i.ibb.co.com/LzWFw7bH/1gx0-cff-Wv-Ryf9h-LJpkcu4if-OB-88-UUF.jpg"},
+          {"id": 604, "name": "Noise Meter", "category": "Noise Testing", "brand": "Lutron (Sl-4010)", "numbers": 1, "image": "https://i.ibb.co.com/s9YWLqTc/1-W5-HYeze-MEob-Lvi-ZDGTWWn-MJf-KKOYLWL.jpg"},
+          {"id": 605, "name": "Vibration Meter", "category": "Vibration Testing", "brand": "Fluke (Fluke 805 FC)", "numbers": 1, "image": "https://i.ibb.co.com/q3f3M67z/1-QEp-Mryk-Tft-C06w4-Zhng-Bwfc-Idd-HS6c-J.jpg"},
+          {"id": 606, "name": "Test Sieves", "category": "Material Testing", "brand": "Various", "numbers": 5, "image": "https://i.ibb.co.com/jBsMZPz/1kk-Sgr-Zi4-BLh-VQ3o-Uzk-Ukp-It62-B58t.jpg"},
+          {"id": 607, "name": "pH Meter", "category": "Water Testing", "brand": "Milwaukee (pH55 Pro)", "numbers": 1, "image": "https://i.ibb.co.com/39HpzJv7/1-PSJK3y-J6j-0-PPfu-Ks8-8-Qa-Logq1-C55-F.jpg"},
+          {"id": 608, "name": "EC and TDS Meter", "category": "Water Testing", "brand": "Milwaukee (EC59 Pro)", "numbers": 1, "image": "https://i.ibb.co.com/VcT178bB/1-QTqyc-Ei0-BIBSai-Zt2-Ci-YFz-NX5-EKLHEN.jpg"},
+          {"id": 609, "name": "Dissolved Oxygen Meter", "category": "Water Testing", "brand": "Milwaukee (MW600 Pro)", "numbers": 2, "image": "https://i.ibb.co.com/Xxt6vmMg/1hmj-Umomgbn49q-GHv-QKDsn-XUq-UEp4n0-I.jpg"},
+          {"id": 610, "name": "TDS Tester", "category": "Water Testing", "brand": "Hanna (HI 98301 DiST-2)", "numbers": 2, "image": "https://i.ibb.co.com/67SqJ9cf/1l-R-4-RAUznk-SDJI0lyh6-Wla-GGpyc4uy-W.jpg"},
+          {"id": 611, "name": "pH Tester", "category": "Water Testing", "brand": "Hanna (HI 98107 pHep)", "numbers": 2, "image": "https://i.ibb.co.com/dw1Vcpdn/1-WCFBMDUo-IRb-Vnvm-Iiy2-QR-ako6q-Hwlo.jpg"},
+          {"id": 612, "name": "Plankton Net", "category": "Water Testing", "brand": "Various", "numbers": 3, "image": "https://i.ibb.co.com/Hpqpk7Kr/1ti-Y1-Zgc-LJFLRhk-Awyrig-UPHz-QPj3i1.jpg"},
+          {"id": 613, "name": "EC Meter", "category": "Water Testing", "brand": "Hanna (HI 98303 DiST 3)", "numbers": 2, "image": "https://i.ibb.co.com/d0M1jQ1c/1v-Ez-TPp-IOa-Nif-Nk-I6f59-Jwa3iw-Fih-Usw.jpg"},
+          {"id": 614, "name": "Turbidity Meter", "category": "Water Testing", "brand": "Hanna (HI 9829)", "numbers": 1, "image": "https://i.ibb.co.com/gZxRbzsG/1-EAB3u21-Dt-CIYJEyzyb-8-NQW2n63he2-R.jpg"}
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Computer Hardware",
+        "category": "it-equipment",
+        "items": [
+          {"id": 701, "name": "Workstation", "category": "Computing", "specs": "Intel Core i5/Ryzen 5, 16GB RAM, 256 SSD+1TB HDD, 22\" LCD Monitor", "image": "https://i.ibb.co.com/SwwkYPfP/1-Wrw-d-CXJn-E2-Nc7f7k8-Hd-V8u0258aygw.jpg"},
+          {"id": 702, "name": "Laptop/Notebook", "category": "Computing", "brands": ["MacBook Air", "SAMSUNG", "ASUS", "HP"], "image": "https://i.ibb.co.com/pjLYtNMK/12-GWkrve-Ap-D-QWHMP7-OP4k-y-Wl-ZI3tng.jpg"},
+          {"id": 703, "name": "iPad", "category": "Computing", "model": "Apple Air", "image": ""},
+          {"id": 704, "name": "Printers & Scanners", "category": "Printing & Scanning", "brands": [
+            "Brothers (DCP-T720DW)",
+            "EPSON Color Printer",
+            "HP Printer",
+            "Toshiba Photocopier & Printer (E-studio 2323AMW)",
+            "Brothers (DCP-T820DW)",
+            "Epson Printer & Scanner (L4260)"
+          ], "image": "https://i.ibb.co.com/JjPqjP15/1j-Pu-LNNu-S0-Mwb8-Bz-VUq-Ml-KSCQFH-ytq-V.jpg"}
+        ]
+      }
+    ]
